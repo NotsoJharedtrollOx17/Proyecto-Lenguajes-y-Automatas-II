@@ -1819,7 +1819,7 @@ var EqEditor = function(M) {
             args: ["\\euro"],
             id: 16
         }],
-        x = [{
+        Q = [{
             latex: "\\therefore",
             base64: "PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBHZW5lcmF0ZWQgYnkgQ29kZUNvZ3Mgd2l0aCBkdmlzdmdtIDIuOS4xIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzguNTkxOTRwdCcgaGVpZ2h0PSc3LjI4MTUzNHB0JyB2aWV3Qm94PSctLjIzOTA1MSAtLjI1NTEyNCA4LjU5MTk0IDcuMjgxNTM0Jz4KPGRlZnM+CjxwYXRoIGlkPSdnMC00MScgZD0nTTQuNjE0Njk1LTQuOTEzNTc0QzQuNjE0Njk1LTUuMjYwMjc0IDQuMzI3NzcxLTUuNTQ3MTk4IDMuOTgxMDcxLTUuNTQ3MTk4UzMuMzQ3NDQ3LTUuMjYwMjc0IDMuMzQ3NDQ3LTQuOTEzNTc0UzMuNjM0MzcxLTQuMjc5OTUgMy45ODEwNzEtNC4yNzk5NUM0LjMxNTgxNi00LjI3OTk1IDQuNjE0Njk1LTQuNTU0OTE5IDQuNjE0Njk1LTQuOTEzNTc0Wk03LjYwMzQ4NyAuMjYzMDE0QzcuNjAzNDg3LS4wODM2ODYgNy4zMTY1NjMtLjM3MDYxIDYuOTY5ODYzLS4zNzA2MVM2LjMzNjIzOS0uMDgzNjg2IDYuMzM2MjM5IC4yNjMwMTRTNi42MjMxNjMgLjg5NjYzOCA2Ljk2OTg2MyAuODk2NjM4UzcuNjAzNDg3IC42MDk3MTQgNy42MDM0ODcgLjI2MzAxNFpNMS42MjU5MDMgLjI2MzAxNEMxLjYyNTkwMy0uMDgzNjg2IDEuMzM4OTc5LS4zNzA2MSAuOTkyMjc5LS4zNzA2MVMuMzU4NjU1LS4wODM2ODYgLjM1ODY1NSAuMjYzMDE0Uy42NDU1NzkgLjg5NjYzOCAuOTkyMjc5IC44OTY2MzhTMS42MjU5MDMgLjYwOTcxNCAxLjYyNTkwMyAuMjYzMDE0WicvPgo8L2RlZnM+CjxnIGlkPSdwYWdlMScgdHJhbnNmb3JtPSdtYXRyaXgoMS4xMyAwIDAgMS4xMyAtNjMuOTg2MDQzIC02OC4yODgxNiknPgo8dXNlIHg9JzU2LjQxMzI2NycgeT0nNjUuNzUzNDI1JyB4bGluazpocmVmPScjZzAtNDEnLz4KPC9nPgo8L3N2Zz4=",
             width: 12,
@@ -2030,7 +2030,7 @@ var EqEditor = function(M) {
             args: ["\\wp"],
             id: 30
         }],
-        E = [{
+        x = [{
             latex: "\\square\\underline{\\,}\\square",
             base64: "PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBHZW5lcmF0ZWQgYnkgQ29kZUNvZ3Mgd2l0aCBkdmlzdmdtIDIuOS4xIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzIyLjQ5OTA1OHB0JyBoZWlnaHQ9JzExLjQ0MjMyM3B0JyB2aWV3Qm94PSctLjIzOTA1MSAtLjI0MzgyNyAyMi40OTkwNTggMTEuNDQyMzIzJz4KPGRlZnM+CjxwYXRoIGlkPSdnMC0zJyBkPSdNOC42MTk2NzYtNy43OTQ3N0M4LjYxOTY3Ni04LjE2NTM4IDguNTgzODExLTguMjEzMiA4LjIwMTI0NS04LjIxMzJIMS4wODc5MkMuNzE3MzEtOC4yMTMyIC42Njk0ODktOC4xNzczMzUgLjY2OTQ4OS03Ljc5NDc3Vi0uNDMwMzg2Qy42Njk0ODktLjA0NzgyMSAuNzA1MzU1IDAgMS4wOTk4NzUgMEg4LjE4OTI5QzguNTgzODExIDAgOC42MTk2NzYtLjAzNTg2NiA4LjYxOTY3Ni0uNDE4NDMxVi03Ljc5NDc3Wk0xLjE0NzY5Ni03LjczNDk5NEg4LjE0MTQ2OVYtLjQ3ODIwN0gxLjE0NzY5NlYtNy43MzQ5OTRaJy8+CjwvZGVmcz4KPGcgaWQ9J3BhZ2UxJyB0cmFuc2Zvcm09J21hdHJpeCgxLjEzIDAgMCAxLjEzIC02My45ODYwNDMgLTY1LjI2NDI4KSc+Cjx1c2UgeD0nNTYuNDEzMjY3JyB5PSc2NS43NTM0MjUnIHhsaW5rOmhyZWY9JyNnMC0zJy8+CjxyZWN0IHg9JzY1LjcxMTc2NCcgeT0nNjcuMTg3OTg2JyBoZWlnaHQ9Jy40NzgxODcnIHdpZHRoPScxLjk5MjQ5OCcvPgo8dXNlIHg9JzY3LjcwNDI2MicgeT0nNjUuNzUzNDI1JyB4bGluazpocmVmPScjZzAtMycvPgo8L2c+Cjwvc3ZnPg==",
             width: 29,
@@ -2059,7 +2059,7 @@ var EqEditor = function(M) {
             args: ["\\!"],
             id: 4
         }],
-        Q = [{
+        G = [{
             latex: "\\Gamma",
             base64: "PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBHZW5lcmF0ZWQgYnkgQ29kZUNvZ3Mgd2l0aCBkdmlzdmdtIDIuOS4xIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzcuNzAwMzI0cHQnIGhlaWdodD0nOS4xOTk4NjFwdCcgdmlld0JveD0nLS4yMzkwNTEgLS4yNDQxMzEgNy43MDAzMjQgOS4xOTk4NjEnPgo8ZGVmcz4KPHBhdGggaWQ9J2cwLTAnIGQ9J002LjUwMzYxMS04LjE0MTQ2OUguNDkwMTYyVi03Ljc5NDc3SC43MjkyNjVDMS41OTAwMzctNy43OTQ3NyAxLjYyNTkwMy03LjY3NTIxOCAxLjYyNTkwMy03LjIzMjg3N1YtLjkwODU5M0MxLjYyNTkwMy0uNDY2MjUyIDEuNTkwMDM3LS4zNDY3IC43MjkyNjUtLjM0NjdILjQ5MDE2MlYwQy43NzcwODYtLjAyMzkxIDEuODQxMDk2LS4wMjM5MSAyLjE5OTc1MS0uMDIzOTFDMi42MTgxODItLjAyMzkxIDMuNjcwMjM3LS4wMjM5MSA0LjAxNjkzNiAwVi0uMzQ2N0gzLjY1ODI4MUMyLjYxODE4Mi0uMzQ2NyAyLjU5NDI3MS0uNDkwMTYyIDIuNTk0MjcxLS45MjA1NDhWLTcuMzE2NTYzQzIuNTk0MjcxLTcuNzExMDgzIDIuNjE4MTgyLTcuNzk0NzcgMy4xNDQyMDktNy43OTQ3N0g0LjQyMzQxMkM2LjA3MzIyNS03Ljc5NDc3IDYuMzg0MDYtNy4xNDkxOTEgNi41NTE0MzItNS40NzU0NjdINi44MTQ0NDZMNi41MDM2MTEtOC4xNDE0NjlaJy8+CjwvZGVmcz4KPGcgaWQ9J3BhZ2UxJyB0cmFuc2Zvcm09J21hdHJpeCgxLjEzIDAgMCAxLjEzIC02My45ODYwNDMgLTY1LjM0NTY0KSc+Cjx1c2UgeD0nNTYuNDEzMjY3JyB5PSc2NS43NTM0MjUnIHhsaW5rOmhyZWY9JyNnMC0wJy8+CjwvZz4KPC9zdmc+",
             width: 11,
@@ -2137,7 +2137,7 @@ var EqEditor = function(M) {
             args: ["\\Psi"],
             id: 11
         }],
-        S = [{
+        E = [{
             latex: "x^a",
             base64: "PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBHZW5lcmF0ZWQgYnkgQ29kZUNvZ3Mgd2l0aCBkdmlzdmdtIDIuOS4xIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzEyLjMxNzE3N3B0JyBoZWlnaHQ9JzkuNjg0NzI5cHQnIHZpZXdCb3g9Jy0uMjM5MDUxIC0uMjQyODE5IDEyLjMxNzE3NyA5LjY4NDcyOSc+CjxkZWZzPgo8cGF0aCBpZD0nZzAtOTcnIGQ9J00zLjEyNDI4NC0zLjAzNjYxM0MzLjA1MjU1My0zLjE3MjEwNSAyLjgyMTQyLTMuNTE0ODE5IDIuMzM1MjQzLTMuNTE0ODE5QzEuMzg2OC0zLjUxNDgxOSAuMzQyNzE1LTIuNDA2OTc0IC4zNDI3MTUtMS4yMjczOTdDLjM0MjcxNS0uMzk4NTA2IC44NzY3MTIgLjA3OTcwMSAxLjQ5MDQxMSAuMDc5NzAxQzIuMDAwNDk4IC4wNzk3MDEgMi40Mzg4NTQtLjMyNjc3NSAyLjU4MjMxNi0uNDg2MTc3QzIuNzI1Nzc4IC4wNjM3NjEgMy4yNjc3NDYgLjA3OTcwMSAzLjM2MzM4NyAuMDc5NzAxQzMuNzMwMDEyIC4wNzk3MDEgMy45MTMzMjUtLjIyMzE2MyAzLjk3NzA4Ni0uMzU4NjU1QzQuMTM2NDg4LS42NDU1NzkgNC4yNDgwNy0xLjEwNzg0NiA0LjI0ODA3LTEuMTM5NzI2QzQuMjQ4MDctMS4xODc1NDcgNC4yMTYxODktMS4yNDMzMzcgNC4xMjA1NDgtMS4yNDMzMzdTNC4wMDg5NjYtMS4xOTU1MTcgMy45NjExNDYtLjk5NjI2NEMzLjg0OTU2NC0uNTU3OTA4IDMuNjk4MTMyLS4xNDM0NjIgMy4zODcyOTgtLjE0MzQ2MkMzLjIwMzk4NS0uMTQzNDYyIDMuMTMyMjU0LS4yOTQ4OTQgMy4xMzIyNTQtLjUxODA1N0MzLjEzMjI1NC0uNjUzNTQ5IDMuMjAzOTg1LS45MjQ1MzMgMy4yNTE4MDYtMS4xMjM3ODZTMy40MTkxNzgtMS44MDEyNDUgMy40NTEwNTktMS45NDQ3MDdMMy42MTA0NjEtMi41NTA0MzZDMy42NTAzMTEtMi43NDE3MTkgMy43Mzc5ODMtMy4wNzY0NjMgMy43Mzc5ODMtMy4xMTYzMTRDMy43Mzc5ODMtMy4yOTk2MjYgMy41ODY1NS0zLjM2MzM4NyAzLjQ4MjkzOS0zLjM2MzM4N0MzLjM2MzM4Ny0zLjM2MzM4NyAzLjE2NDEzNC0zLjI4MzY4NiAzLjEyNDI4NC0zLjAzNjYxM1pNMi41ODIzMTYtLjg2MDc3MkMyLjE4MzgxMS0uMzEwODM0IDEuNzY5MzY1LS4xNDM0NjIgMS41MTQzMjEtLjE0MzQ2MkMxLjE0NzY5Ni0uMTQzNDYyIC45NjQzODQtLjQ3ODIwNyAuOTY0Mzg0LS44OTI2NTNDLjk2NDM4NC0xLjI2NzI0OCAxLjE3OTU3Ny0yLjEyMDA1IDEuMzU0OTE5LTIuNDcwNzM1QzEuNTg2MDUyLTIuOTU2OTEyIDEuOTc2NTg4LTMuMjkxNjU2IDIuMzQzMjEzLTMuMjkxNjU2QzIuODYxMjctMy4yOTE2NTYgMy4wMTI3MDItMi43MDk4MzggMy4wMTI3MDItMi42MTQxOTdDMy4wMTI3MDItMi41ODIzMTYgMi44MTM0NS0xLjgwMTI0NSAyLjc2NTYyOS0xLjU5NDAyMkMyLjY2MjAxNy0xLjIxOTQyNyAyLjY2MjAxNy0xLjIwMzQ4NyAyLjU4MjMxNi0uODYwNzcyWicvPgo8cGF0aCBpZD0nZzEtMTIwJyBkPSdNNS42NjY3NS00Ljg3NzcwOUM1LjI4NDE4NC00LjgwNTk3OCA1LjE0MDcyMi00LjUxOTA1NCA1LjE0MDcyMi00LjI5MTkwNUM1LjE0MDcyMi00LjAwNDk4MSA1LjM2Nzg3LTMuOTA5MzQgNS41MzUyNDMtMy45MDkzNEM1Ljg5Mzg5OC0zLjkwOTM0IDYuMTQ0OTU2LTQuMjIwMTc0IDYuMTQ0OTU2LTQuNTQyOTY0QzYuMTQ0OTU2LTUuMDQ1MDgxIDUuNTcxMTA4LTUuMjcyMjI5IDUuMDY4OTkxLTUuMjcyMjI5QzQuMzM5NzI2LTUuMjcyMjI5IDMuOTMzMjUtNC41NTQ5MTkgMy44MjU2NTQtNC4zMjc3NzFDMy41NTA2ODUtNS4yMjQ0MDggMi44MDk0NjUtNS4yNzIyMjkgMi41OTQyNzEtNS4yNzIyMjlDMS4zNzQ4NDQtNS4yNzIyMjkgLjcyOTI2NS0zLjcwNjEwMiAuNzI5MjY1LTMuNDQzMDg4Qy43MjkyNjUtMy4zOTUyNjggLjc3NzA4Ni0zLjMzNTQ5MiAuODYwNzcyLTMuMzM1NDkyQy45NTY0MTMtMy4zMzU0OTIgLjk4MDMyNC0zLjQwNzIyMyAxLjAwNDIzNC0zLjQ1NTA0NEMxLjQxMDcxLTQuNzgyMDY3IDIuMjExNzA2LTUuMDMzMTI2IDIuNTU4NDA2LTUuMDMzMTI2QzMuMDk2Mzg5LTUuMDMzMTI2IDMuMjAzOTg1LTQuNTMxMDA5IDMuMjAzOTg1LTQuMjQ0MDg1QzMuMjAzOTg1LTMuOTgxMDcxIDMuMTMyMjU0LTMuNzA2MTAyIDIuOTg4NzkyLTMuMTMyMjU0TDIuNTgyMzE2LTEuNDk0Mzk2QzIuNDAyOTg5LS43NzcwODYgMi4wNTYyODktLjExOTU1MiAxLjQyMjY2NS0uMTE5NTUyQzEuMzYyODg5LS4xMTk1NTIgMS4wNjQwMS0uMTE5NTUyIC44MTI5NTEtLjI3NDk2OUMxLjI0MzMzNy0uMzU4NjU1IDEuMzM4OTc5LS43MTczMSAxLjMzODk3OS0uODYwNzcyQzEuMzM4OTc5LTEuMDk5ODc1IDEuMTU5NjUxLTEuMjQzMzM3IC45MzI1MDMtMS4yNDMzMzdDLjY0NTU3OS0xLjI0MzMzNyAuMzM0NzQ1LS45OTIyNzkgLjMzNDc0NS0uNjA5NzE0Qy4zMzQ3NDUtLjEwNzU5NyAuODk2NjM4IC4xMTk1NTIgMS40MTA3MSAuMTE5NTUyQzEuOTg0NTU4IC4xMTk1NTIgMi4zOTEwMzQtLjMzNDc0NSAyLjY0MjA5Mi0uODI0OTA3QzIuODMzMzc1LS4xMTk1NTIgMy40MzExMzMgLjExOTU1MiAzLjg3MzQ3NCAuMTE5NTUyQzUuMDkyOTAyIC4xMTk1NTIgNS43Mzg0ODEtMS40NDY1NzUgNS43Mzg0ODEtMS43MDk1ODlDNS43Mzg0ODEtMS43NjkzNjUgNS42OTA2Ni0xLjgxNzE4NiA1LjYxODkyOS0xLjgxNzE4NkM1LjUxMTMzMy0xLjgxNzE4NiA1LjQ5OTM3Ny0xLjc1NzQxIDUuNDYzNTEyLTEuNjYxNzY4QzUuMTQwNzIyLS42MDk3MTQgNC40NDczMjMtLjExOTU1MiAzLjkwOTM0LS4xMTk1NTJDMy40OTA5MDktLjExOTU1MiAzLjI2Mzc2MS0uNDMwMzg2IDMuMjYzNzYxLS45MjA1NDhDMy4yNjM3NjEtMS4xODM1NjIgMy4zMTE1ODItMS4zNzQ4NDQgMy41MDI4NjQtMi4xNjM4ODVMMy45MjEyOTUtMy43ODk3ODhDNC4xMDA2MjMtNC41MDcwOTggNC41MDcwOTgtNS4wMzMxMjYgNS4wNTcwMzYtNS4wMzMxMjZDNS4wODA5NDYtNS4wMzMxMjYgNS40MTU2OTEtNS4wMzMxMjYgNS42NjY3NS00Ljg3NzcwOVonLz4KPC9kZWZzPgo8ZyBpZD0ncGFnZTEnIHRyYW5zZm9ybT0nbWF0cml4KDEuMTMgMCAwIDEuMTMgLTYzLjk4NjA0MyAtNjQuOTk0NTUzKSc+Cjx1c2UgeD0nNTYuNDEzMjY3JyB5PSc2NS43NTM0MjUnIHhsaW5rOmhyZWY9JyNnMS0xMjAnLz4KPHVzZSB4PSc2My4wNjUzNTQnIHk9JzYwLjgxNzIzOScgeGxpbms6aHJlZj0nI2cwLTk3Jy8+CjwvZz4KPC9zdmc+",
             width: 17,
@@ -2334,7 +2334,7 @@ var EqEditor = function(M) {
             base64: "PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBHZW5lcmF0ZWQgYnkgQ29kZUNvZ3Mgd2l0aCBkdmlzdmdtIDIuOS4xIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzE2LjQ5NDkwNHB0JyBoZWlnaHQ9JzM4Ljc2Mjk1OHB0JyB2aWV3Qm94PSctLjIzOTA1MSAtLjIzMzA1MSAxNi40OTQ5MDQgMzguNzYyOTU4Jz4KPGRlZnM+CjxwYXRoIGlkPSdnMC05NycgZD0nTTE0LjU5NzI2IDE2LjczNzIzNVYxNi4wOTE2NTZDMTMuMDA3MjIzIDE2LjA5MTY1NiAxMi42MzY2MTMgMTUuNTQxNzE5IDEyLjYzNjYxMyAxNC43NzY1ODhWMS45NjA2NDhDMTIuNjM2NjEzIDEuMTgzNTYyIDEzLjAxOTE3OCAuNjQ1NTc5IDE0LjU5NzI2IC42NDU1NzlWMEg4Ljg0NjgyNFYuNjQ1NTc5QzEwLjQzNjg2MiAuNjQ1NTc5IDEwLjgwNzQ3MiAxLjE5NTUxNyAxMC44MDc0NzIgMS45NjA2NDhWMTYuMDkxNjU2SDQuNDU5Mjc4VjEuOTYwNjQ4QzQuNDU5Mjc4IDEuMTgzNTYyIDQuODQxODQzIC42NDU1NzkgNi40MTk5MjUgLjY0NTU3OVYwSC42Njk0ODlWLjY0NTU3OUMyLjI1OTUyNyAuNjQ1NTc5IDIuNjMwMTM3IDEuMTk1NTE3IDIuNjMwMTM3IDEuOTYwNjQ4VjE0Ljc3NjU4OEMyLjYzMDEzNyAxNS41NTM2NzQgMi4yNDc1NzIgMTYuMDkxNjU2IC42Njk0ODkgMTYuMDkxNjU2VjE2LjczNzIzNUgxNC41OTcyNlonLz4KPHBhdGggaWQ9J2cxLTk3JyBkPSdNMy4xMjQyODQtMy4wMzY2MTNDMy4wNTI1NTMtMy4xNzIxMDUgMi44MjE0Mi0zLjUxNDgxOSAyLjMzNTI0My0zLjUxNDgxOUMxLjM4NjgtMy41MTQ4MTkgLjM0MjcxNS0yLjQwNjk3NCAuMzQyNzE1LTEuMjI3Mzk3Qy4zNDI3MTUtLjM5ODUwNiAuODc2NzEyIC4wNzk3MDEgMS40OTA0MTEgLjA3OTcwMUMyLjAwMDQ5OCAuMDc5NzAxIDIuNDM4ODU0LS4zMjY3NzUgMi41ODIzMTYtLjQ4NjE3N0MyLjcyNTc3OCAuMDYzNzYxIDMuMjY3NzQ2IC4wNzk3MDEgMy4zNjMzODcgLjA3OTcwMUMzLjczMDAxMiAuMDc5NzAxIDMuOTEzMzI1LS4yMjMxNjMgMy45NzcwODYtLjM1ODY1NUM0LjEzNjQ4OC0uNjQ1NTc5IDQuMjQ4MDctMS4xMDc4NDYgNC4yNDgwNy0xLjEzOTcyNkM0LjI0ODA3LTEuMTg3NTQ3IDQuMjE2MTg5LTEuMjQzMzM3IDQuMTIwNTQ4LTEuMjQzMzM3UzQuMDA4OTY2LTEuMTk1NTE3IDMuOTYxMTQ2LS45OTYyNjRDMy44NDk1NjQtLjU1NzkwOCAzLjY5ODEzMi0uMTQzNDYyIDMuMzg3Mjk4LS4xNDM0NjJDMy4yMDM5ODUtLjE0MzQ2MiAzLjEzMjI1NC0uMjk0ODk0IDMuMTMyMjU0LS41MTgwNTdDMy4xMzIyNTQtLjY1MzU0OSAzLjIwMzk4NS0uOTI0NTMzIDMuMjUxODA2LTEuMTIzNzg2UzMuNDE5MTc4LTEuODAxMjQ1IDMuNDUxMDU5LTEuOTQ0NzA3TDMuNjEwNDYxLTIuNTUwNDM2QzMuNjUwMzExLTIuNzQxNzE5IDMuNzM3OTgzLTMuMDc2NDYzIDMuNzM3OTgzLTMuMTE2MzE0QzMuNzM3OTgzLTMuMjk5NjI2IDMuNTg2NTUtMy4zNjMzODcgMy40ODI5MzktMy4zNjMzODdDMy4zNjMzODctMy4zNjMzODcgMy4xNjQxMzQtMy4yODM2ODYgMy4xMjQyODQtMy4wMzY2MTNaTTIuNTgyMzE2LS44NjA3NzJDMi4xODM4MTEtLjMxMDgzNCAxLjc2OTM2NS0uMTQzNDYyIDEuNTE0MzIxLS4xNDM0NjJDMS4xNDc2OTYtLjE0MzQ2MiAuOTY0Mzg0LS40NzgyMDcgLjk2NDM4NC0uODkyNjUzQy45NjQzODQtMS4yNjcyNDggMS4xNzk1NzctMi4xMjAwNSAxLjM1NDkxOS0yLjQ3MDczNUMxLjU4NjA1Mi0yLjk1NjkxMiAxLjk3NjU4OC0zLjI5MTY1NiAyLjM0MzIxMy0zLjI5MTY1NkMyLjg2MTI3LTMuMjkxNjU2IDMuMDEyNzAyLTIuNzA5ODM4IDMuMDEyNzAyLTIuNjE0MTk3QzMuMDEyNzAyLTIuNTgyMzE2IDIuODEzNDUtMS44MDEyNDUgMi43NjU2MjktMS41OTQwMjJDMi42NjIwMTctMS4yMTk0MjcgMi42NjIwMTctMS4yMDM0ODcgMi41ODIzMTYtLjg2MDc3MlonLz4KPHBhdGggaWQ9J2cxLTk4JyBkPSdNMS45NDQ3MDctNS4yOTIxNTRDMS45NTI2NzctNS4zMDgwOTUgMS45NzY1ODgtNS40MTE3MDYgMS45NzY1ODgtNS40MTk2NzZDMS45NzY1ODgtNS40NTk1MjcgMS45NDQ3MDctNS41MzEyNTggMS44NDkwNjYtNS41MzEyNThDMS44MTcxODYtNS41MzEyNTggMS41NzAxMTItNS41MDczNDcgMS4zODY4LTUuNDkxNDA3TC45NDA0NzMtNS40NTk1MjdDLjc2NTEzMS01LjQ0MzU4NyAuNjg1NDMtNS40MzU2MTYgLjY4NTQzLTUuMjkyMTU0Qy42ODU0My01LjE4MDU3MyAuNzk3MDExLTUuMTgwNTczIC44OTI2NTMtNS4xODA1NzNDMS4yNzUyMTgtNS4xODA1NzMgMS4yNzUyMTgtNS4xMzI3NTIgMS4yNzUyMTgtNS4wNjEwMjFDMS4yNzUyMTgtNS4wMTMyIDEuMTk1NTE3LTQuNjk0Mzk2IDEuMTQ3Njk2LTQuNTExMDgzTC40NTQyOTYtMS43Mzc0ODRDLjM5MDUzNS0xLjQ2NjUwMSAuMzkwNTM1LTEuMzQ2OTQ5IC4zOTA1MzUtMS4yMTE0NTdDLjM5MDUzNS0uMzkwNTM1IC44OTI2NTMgLjA3OTcwMSAxLjUwNjM1MSAuMDc5NzAxQzIuNDg2Njc1IC4wNzk3MDEgMy41MDY4NDktMS4wNTIwNTUgMy41MDY4NDktMi4yMDc3MjFDMy41MDY4NDktMi45OTY3NjIgMi45OTY3NjItMy41MTQ4MTkgMi4zNTkxNTMtMy41MTQ4MTlDMS45MTI4MjctMy41MTQ4MTkgMS41NzAxMTItMy4yMjc4OTUgMS4zOTQ3Ny0zLjA3NjQ2M0wxLjk0NDcwNy01LjI5MjE1NFpNMS41MDYzNTEtLjE0MzQ2MkMxLjIxOTQyNy0uMTQzNDYyIC45MzI1MDMtLjM2NjYyNSAuOTMyNTAzLS45NDg0NDNDLjkzMjUwMy0xLjE2MzYzNiAuOTY0Mzg0LTEuMzYyODg5IDEuMDYwMDI1LTEuNzQ1NDU1QzEuMTE1ODE2LTEuOTc2NTg4IDEuMTcxNjA2LTIuMTk5NzUxIDEuMjM1MzY3LTIuNDMwODg0QzEuMjc1MjE4LTIuNTc0MzQ2IDEuMjc1MjE4LTIuNTkwMjg2IDEuMzcwODU5LTIuNzA5ODM4QzEuNjQxODQzLTMuMDQ0NTgzIDIuMDAwNDk4LTMuMjkxNjU2IDIuMzM1MjQzLTMuMjkxNjU2QzIuNzMzNzQ4LTMuMjkxNjU2IDIuODg1MTgxLTIuOTAxMTIxIDIuODg1MTgxLTIuNTQyNDY2QzIuODg1MTgxLTIuMjQ3NTcyIDIuNzA5ODM4LTEuMzk0NzcgMi40NzA3MzUtLjkyNDUzM0MyLjI2MzUxMi0uNDk0MTQ3IDEuODgwOTQ2LS4xNDM0NjIgMS41MDYzNTEtLjE0MzQ2MlonLz4KPC9kZWZzPgo8ZyBpZD0ncGFnZTEnIHRyYW5zZm9ybT0nbWF0cml4KDEuMTMgMCAwIDEuMTMgLTYzLjk4NjA0MyAtNjIuMzgwMDE2KSc+Cjx1c2UgeD0nNjIuMjQwMDE5JyB5PSc2MC41Mjg1NzInIHhsaW5rOmhyZWY9JyNnMS05OCcvPgo8dXNlIHg9JzU2LjQxMzI2NycgeT0nNjQuMTE1MTI5JyB4bGluazpocmVmPScjZzAtOTcnLz4KPHVzZSB4PSc2MS44MDIzMTQnIHk9Jzg5LjIyMTExNScgeGxpbms6aHJlZj0nI2cxLTk3Jy8+CjwvZz4KPC9zdmc+",
             id: 28
         }, {}],
-        G = [{
+        r = [{
             latex: "H",
             base64: "PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBHZW5lcmF0ZWQgYnkgQ29kZUNvZ3Mgd2l0aCBkdmlzdmdtIDIuOS4xIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzExLjU5MTAxNHB0JyBoZWlnaHQ9JzkuMjI2ODc5cHQnIHZpZXdCb3g9Jy0uMjM5MDUxIC0uMjQ0MDI5IDExLjU5MTAxNCA5LjIyNjg3OSc+CjxkZWZzPgo8cGF0aCBpZD0nZzAtNzInIGQ9J004Ljk0MjQ2Ni03LjI5MjY1M0M5LjA1MDA2Mi03LjY5OTEyOCA5LjA3Mzk3My03LjgxODY4IDkuOTIyNzktNy44MTg2OEMxMC4xMzc5ODMtNy44MTg2OCAxMC4yNTc1MzQtNy44MTg2OCAxMC4yNTc1MzQtOC4wMzM4NzNDMTAuMjU3NTM0LTguMTY1MzggMTAuMTQ5OTM4LTguMTY1MzggMTAuMDc4MjA3LTguMTY1MzhDOS44NjMwMTQtOC4xNjUzOCA5LjYxMTk1NS04LjE0MTQ2OSA5LjM4NDgwNy04LjE0MTQ2OUg3Ljk3NDA5N0M3Ljc0Njk0OS04LjE0MTQ2OSA3LjQ5NTg5LTguMTY1MzggNy4yNjg3NDItOC4xNjUzOEM3LjE4NTA1Ni04LjE2NTM4IDcuMDQxNTk0LTguMTY1MzggNy4wNDE1OTQtNy45MzgyMzJDNy4wNDE1OTQtNy44MTg2OCA3LjEyNTI4LTcuODE4NjggNy4zNTI0MjgtNy44MTg2OEM4LjA2OTczOC03LjgxODY4IDguMDY5NzM4LTcuNzIzMDM5IDguMDY5NzM4LTcuNTkxNTMyQzguMDY5NzM4LTcuNTY3NjIxIDguMDY5NzM4LTcuNDk1ODkgOC4wMjE5MTgtNy4zMTY1NjNMNy4yOTI2NTMtNC40MjM0MTJIMy42ODIxOTJMNC4zOTk1MDItNy4yOTI2NTNDNC41MDcwOTgtNy42OTkxMjggNC41MzEwMDktNy44MTg2OCA1LjM3OTgyNi03LjgxODY4QzUuNTk1MDE5LTcuODE4NjggNS43MTQ1Ny03LjgxODY4IDUuNzE0NTctOC4wMzM4NzNDNS43MTQ1Ny04LjE2NTM4IDUuNjA2OTc0LTguMTY1MzggNS41MzUyNDMtOC4xNjUzOEM1LjMyMDA1LTguMTY1MzggNS4wNjg5OTEtOC4xNDE0NjkgNC44NDE4NDMtOC4xNDE0NjlIMy40MzExMzNDMy4yMDM5ODUtOC4xNDE0NjkgMi45NTI5MjctOC4xNjUzOCAyLjcyNTc3OC04LjE2NTM4QzIuNjQyMDkyLTguMTY1MzggMi40OTg2My04LjE2NTM4IDIuNDk4NjMtNy45MzgyMzJDMi40OTg2My03LjgxODY4IDIuNTgyMzE2LTcuODE4NjggMi44MDk0NjUtNy44MTg2OEMzLjUyNjc3NS03LjgxODY4IDMuNTI2Nzc1LTcuNzIzMDM5IDMuNTI2Nzc1LTcuNTkxNTMyQzMuNTI2Nzc1LTcuNTY3NjIxIDMuNTI2Nzc1LTcuNDk1ODkgMy40Nzg5NTQtNy4zMTY1NjNMMS44NjUwMDYtLjg4NDY4MkMxLjc1NzQxLS40NjYyNTIgMS43MzM0OTktLjM0NjcgLjkwODU5My0uMzQ2N0MuNjMzNjI0LS4zNDY3IC41NDk5MzgtLjM0NjcgLjU0OTkzOC0uMTE5NTUyQy41NDk5MzggMCAuNjgxNDQ1IDAgLjcxNzMxIDBDLjkzMjUwMyAwIDEuMTgzNTYyLS4wMjM5MSAxLjQxMDcxLS4wMjM5MUgyLjgyMTQyQzMuMDQ4NTY4LS4wMjM5MSAzLjI5OTYyNiAwIDMuNTI2Nzc1IDBDMy42MjI0MTYgMCAzLjc1MzkyMyAwIDMuNzUzOTIzLS4yMjcxNDhDMy43NTM5MjMtLjM0NjcgMy42NDYzMjYtLjM0NjcgMy40NjY5OTktLjM0NjdDMi43Mzc3MzMtLjM0NjcgMi43Mzc3MzMtLjQ0MjM0MSAyLjczNzczMy0uNTYxODkzQzIuNzM3NzMzLS41NzM4NDggMi43Mzc3MzMtLjY1NzUzNCAyLjc2MTY0NC0uNzUzMTc2TDMuNTg2NTUtNC4wNzY3MTJINy4yMDg5NjZDNy4wMDU3MjktMy4yODc2NzEgNi4zOTYwMTUtLjc4OTA0MSA2LjM3MjEwNS0uNzE3MzFDNi4yNDA1OTgtLjM1ODY1NSA2LjA0OTMxNS0uMzU4NjU1IDUuMzQzOTYtLjM0NjdDNS4yMDA0OTgtLjM0NjcgNS4wOTI5MDItLjM0NjcgNS4wOTI5MDItLjExOTU1MkM1LjA5MjkwMiAwIDUuMjI0NDA4IDAgNS4yNjAyNzQgMEM1LjQ3NTQ2NyAwIDUuNzI2NTI2LS4wMjM5MSA1Ljk1MzY3NC0uMDIzOTFINy4zNjQzODRDNy41OTE1MzItLjAyMzkxIDcuODQyNTkgMCA4LjA2OTczOCAwQzguMTY1MzggMCA4LjI5Njg4NyAwIDguMjk2ODg3LS4yMjcxNDhDOC4yOTY4ODctLjM0NjcgOC4xODkyOS0uMzQ2NyA4LjAwOTk2My0uMzQ2N0M3LjI4MDY5Ny0uMzQ2NyA3LjI4MDY5Ny0uNDQyMzQxIDcuMjgwNjk3LS41NjE4OTNDNy4yODA2OTctLjU3Mzg0OCA3LjI4MDY5Ny0uNjU3NTM0IDcuMzA0NjA4LS43NTMxNzZMOC45NDI0NjYtNy4yOTI2NTNaJy8+CjwvZGVmcz4KPGcgaWQ9J3BhZ2UxJyB0cmFuc2Zvcm09J21hdHJpeCgxLjEzIDAgMCAxLjEzIC02My45ODYwNDMgLTY1LjMxODUyKSc+Cjx1c2UgeD0nNTYuNDEzMjY3JyB5PSc2NS43NTM0MjUnIHhsaW5rOmhyZWY9JyNnMC03MicvPgo8L2c+Cjwvc3ZnPg==",
             width: 17,
@@ -2377,7 +2377,7 @@ var EqEditor = function(M) {
             args: ["S"],
             id: 6
         }],
-        r = [{
+        B = [{
             latex: "\\rightarrow",
             base64: "PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBHZW5lcmF0ZWQgYnkgQ29kZUNvZ3Mgd2l0aCBkdmlzdmdtIDIuOS4xIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzEyLjczOTMwOHB0JyBoZWlnaHQ9JzcuMDUxODc1cHQnIHZpZXdCb3g9Jy0uMjM5MDUxIC0uMjUyNzQzIDEyLjczOTMwOCA3LjA1MTg3NSc+CjxkZWZzPgo8cGF0aCBpZD0nZzAtMzMnIGQ9J005Ljk3MDYxLTIuNzQ5Njg5QzkuMzEzMDc2LTIuMjQ3NTcyIDguOTkwMjg2LTEuNzU3NDEgOC44OTQ2NDUtMS42MDE5OTNDOC4zNTY2NjMtLjc3NzA4NiA4LjI2MTAyMS0uMDIzOTEgOC4yNjEwMjEtLjAxMTk1NUM4LjI2MTAyMSAuMTMxNTA3IDguNDA0NDgzIC4xMzE1MDcgOC41MDAxMjUgLjEzMTUwN0M4LjcwMzM2MiAuMTMxNTA3IDguNzE1MzE4IC4xMDc1OTcgOC43NjMxMzgtLjEwNzU5N0M5LjAzODEwNy0xLjI3OTIwMyA5Ljc0MzQ2Mi0yLjI4MzQzNyAxMS4wOTQzOTYtMi44MzMzNzVDMTEuMjM3ODU4LTIuODgxMTk2IDExLjI3MzcyNC0yLjkwNTEwNiAxMS4yNzM3MjQtMi45ODg3OTJTMTEuMjAxOTkzLTMuMTA4MzQ0IDExLjE3ODA4Mi0zLjEyMDI5OUMxMC42NTIwNTUtMy4zMjM1MzcgOS4yMDU0NzktMy45MjEyOTUgOC43NTExODMtNS45Mjk3NjNDOC43MTUzMTgtNi4wNzMyMjUgOC43MDMzNjItNi4xMDkwOTEgOC41MDAxMjUtNi4xMDkwOTFDOC40MDQ0ODMtNi4xMDkwOTEgOC4yNjEwMjEtNi4xMDkwOTEgOC4yNjEwMjEtNS45NjU2MjlDOC4yNjEwMjEtNS45NDE3MTkgOC4zNjg2MTgtNS4xODg1NDMgOC44NzA3MzUtNC4zODc1NDdDOS4xMDk4MzgtNC4wMjg4OTIgOS40NTY1MzgtMy42MTA0NjEgOS45NzA2MS0zLjIyNzg5NUgxLjA4NzkyQy44NzI3MjctMy4yMjc4OTUgLjY1NzUzNC0zLjIyNzg5NSAuNjU3NTM0LTIuOTg4NzkyUy44NzI3MjctMi43NDk2ODkgMS4wODc5Mi0yLjc0OTY4OUg5Ljk3MDYxWicvPgo8L2RlZnM+CjxnIGlkPSdwYWdlMScgdHJhbnNmb3JtPSdtYXRyaXgoMS4xMyAwIDAgMS4xMyAtNjMuOTg2MDQzIC02Ny42NTA4NCknPgo8dXNlIHg9JzU2LjQxMzI2NycgeT0nNjUuNzUzNDI1JyB4bGluazpocmVmPScjZzAtMzMnLz4KPC9nPgo8L3N2Zz4=",
             width: 17,
@@ -2532,7 +2532,7 @@ var EqEditor = function(M) {
             operation: "insert",
             args: ["{\\color{Pink} }", -1]
         }],
-        U = Object.freeze({
+        S = Object.freeze({
             __proto__: null,
             binary: N,
             accents_ext: z,
@@ -2546,12 +2546,12 @@ var EqEditor = function(M) {
             style: u,
             relations: c,
             foreign: A,
-            symbols: x,
-            spaces: E,
-            greekupper: Q,
-            operators: S,
-            chemistry_letters: G,
-            chemistry_arrows: r,
+            symbols: Q,
+            spaces: x,
+            greekupper: G,
+            operators: E,
+            chemistry_letters: r,
+            chemistry_arrows: B,
             colors: v,
             default: {
                 binary: N,
@@ -2566,12 +2566,12 @@ var EqEditor = function(M) {
                 style: u,
                 relations: c,
                 foreign: A,
-                symbols: x,
-                spaces: E,
-                greekupper: Q,
-                operators: S,
-                chemistry_letters: G,
-                chemistry_arrows: r,
+                symbols: Q,
+                spaces: x,
+                greekupper: G,
+                operators: E,
+                chemistry_letters: r,
+                chemistry_arrows: B,
                 colors: v
             }
         });
@@ -2719,53 +2719,53 @@ var EqEditor = function(M) {
         }
     }
 
-    function k(M) {
-        return Array.isArray ? Array.isArray(M) : "[object Array]" === K(M)
+    function U(M) {
+        return Array.isArray ? Array.isArray(M) : "[object Array]" === F(M)
     }
     const W = 1 / 0;
 
-    function B(M) {
+    function p(M) {
         if (null == M) return "";
         if ("string" == typeof M) return M;
         var N = M + "";
         return "0" == N && 1 / M == -W ? "-0" : N
     }
 
-    function t(M) {
+    function k(M) {
         return "string" == typeof M
     }
 
-    function p(M) {
+    function V(M) {
         return "number" == typeof M
     }
 
-    function V(M) {
-        return !0 === M || !1 === M || R(N = M) && null !== N && "[object Boolean]" == K(M);
+    function R(M) {
+        return !0 === M || !1 === M || K(N = M) && null !== N && "[object Boolean]" == F(M);
         var N
     }
 
-    function R(M) {
+    function K(M) {
         return "object" == typeof M
     }
 
-    function Y(M) {
+    function t(M) {
         return null != M
     }
 
-    function w(M) {
+    function Y(M) {
         return !M.trim().length
     }
 
-    function K(M) {
+    function F(M) {
         return null == M ? void 0 === M ? "[object Undefined]" : "[object Null]" : Object.prototype.toString.call(M)
     }
-    const F = Object.prototype.hasOwnProperty;
-    class X {
+    const X = Object.prototype.hasOwnProperty;
+    class f {
         constructor(M) {
             this._keys = [], this._keyMap = {};
             let N = 0;
             M.forEach(M => {
-                M = f(M);
+                M = q(M);
                 N += M.weight, this._keys.push(M), this._keyMap[M.id] = M, N += M.weight
             }), this._keys.forEach(M => {
                 M.weight /= N
@@ -2782,17 +2782,17 @@ var EqEditor = function(M) {
         }
     }
 
-    function f(M) {
+    function q(M) {
         let N = null,
             z = null,
             j = null,
             T = 1;
-        if (t(M) || k(M)) j = M, N = _(M), z = C(M);
+        if (k(M) || U(M)) j = M, N = _(M), z = w(M);
         else {
-            if (!F.call(M, "name")) throw new Error("Missing name property in key");
+            if (!X.call(M, "name")) throw new Error("Missing name property in key");
             var D = M.name;
-            if (j = D, F.call(M, "weight") && (T = M.weight) <= 0) throw new Error(`Property 'weight' in key '${D}' must be a positive integer`);
-            N = _(D), z = C(D)
+            if (j = D, X.call(M, "weight") && (T = M.weight) <= 0) throw new Error(`Property 'weight' in key '${D}' must be a positive integer`);
+            N = _(D), z = w(D)
         }
         return {
             path: N,
@@ -2803,11 +2803,11 @@ var EqEditor = function(M) {
     }
 
     function _(M) {
-        return k(M) ? M : M.split(".")
+        return U(M) ? M : M.split(".")
     }
 
-    function C(M) {
-        return k(M) ? M.join(".") : M
+    function w(M) {
+        return U(M) ? M.join(".") : M
     }
     var l = {
         isCaseSensitive: !1,
@@ -2827,26 +2827,26 @@ var EqEditor = function(M) {
                 let D = [],
                     L = !1;
                 const y = (M, z, j) => {
-                    if (Y(M))
+                    if (t(M))
                         if (z[j]) {
                             var T = M[z[j]];
-                            if (Y(T))
-                                if (j === z.length - 1 && (t(T) || p(T) || V(T))) D.push(B(T));
-                                else if (k(T)) {
+                            if (t(T))
+                                if (j === z.length - 1 && (k(T) || V(T) || R(T))) D.push(p(T));
+                                else if (U(T)) {
                                 L = !0;
                                 for (let M = 0, N = T.length; M < N; M += 1) y(T[M], z, j + 1)
                             } else z.length && y(T, z, j + 1)
                         } else D.push(M)
                 };
-                return y(M, t(N) ? N.split(".") : N, 0), L ? D : D[0]
+                return y(M, k(N) ? N.split(".") : N, 0), L ? D : D[0]
             },
             ignoreLocation: !1,
             ignoreFieldNorm: !1,
             fieldNormWeight: 1
         }
     };
-    const q = /[^ ]+/g;
-    class i {
+    const $ = /[^ ]+/g;
+    class C {
         constructor({
             getFn: M = l.getFn,
             fieldNormWeight: N = l.fieldNormWeight
@@ -2856,7 +2856,7 @@ var EqEditor = function(M) {
                     T = Math.pow(10, M);
                 return {
                     get(M) {
-                        M = M.match(q).length;
+                        M = M.match($).length;
                         if (j.has(M)) return j.get(M);
                         var N = 1 / Math.pow(M, .5 * z),
                             N = parseFloat(Math.round(N * T) / T);
@@ -2880,7 +2880,7 @@ var EqEditor = function(M) {
             })
         }
         create() {
-            !this.isCreated && this.docs.length && (this.isCreated = !0, t(this.docs[0]) ? this.docs.forEach((M, N) => {
+            !this.isCreated && this.docs.length && (this.isCreated = !0, k(this.docs[0]) ? this.docs.forEach((M, N) => {
                 this._addString(M, N)
             }) : this.docs.forEach((M, N) => {
                 this._addObject(M, N)
@@ -2888,7 +2888,7 @@ var EqEditor = function(M) {
         }
         add(M) {
             var N = this.size();
-            t(M) ? this._addString(M, N) : this._addObject(M, N)
+            k(M) ? this._addString(M, N) : this._addObject(M, N)
         }
         removeAt(z) {
             this.records.splice(z, 1);
@@ -2901,7 +2901,7 @@ var EqEditor = function(M) {
             return this.records.length
         }
         _addString(M, N) {
-            Y(M) && !w(M) && (N = {
+            t(M) && !Y(M) && (N = {
                 v: M,
                 i: N,
                 n: this.norm.get(M)
@@ -2914,8 +2914,8 @@ var EqEditor = function(M) {
             };
             this.keys.forEach((M, N) => {
                 let z = this.getFn(L, M.path);
-                if (Y(z))
-                    if (k(z)) {
+                if (t(z))
+                    if (U(z)) {
                         let M = [];
                         const T = [{
                             nestedArrIndex: -1,
@@ -2927,11 +2927,11 @@ var EqEditor = function(M) {
                                 value: z
                             } = T.pop();
                             var j;
-                            Y(z) && (t(z) && !w(z) ? (j = {
+                            t(z) && (k(z) && !Y(z) ? (j = {
                                 v: z,
                                 i: D,
                                 n: this.norm.get(z)
-                            }, M.push(j)) : k(z) && z.forEach((M, N) => {
+                            }, M.push(j)) : U(z) && z.forEach((M, N) => {
                                 T.push({
                                     nestedArrIndex: N,
                                     value: M
@@ -2939,7 +2939,7 @@ var EqEditor = function(M) {
                             }))
                         }
                         y.$[N] = M
-                    } else w(z) || (M = {
+                    } else Y(z) || (M = {
                         v: z,
                         n: this.norm.get(z)
                     }, y.$[N] = M)
@@ -2953,15 +2953,15 @@ var EqEditor = function(M) {
         }
     }
 
-    function $(M, N, {
+    function MM(M, N, {
         getFn: z = l.getFn,
         fieldNormWeight: j = l.fieldNormWeight
     } = {}) {
-        const T = new i({
+        const T = new C({
             getFn: z,
             fieldNormWeight: j
         });
-        return T.setKeys(M.map(f)), T.setSources(N), T.create(), T
+        return T.setKeys(M.map(q)), T.setSources(N), T.create(), T
     }
 
     function a(M, {
@@ -2977,7 +2977,7 @@ var EqEditor = function(M) {
         return T ? N + M / T : M ? 1 : N
     }
 
-    function MM(D, L, y, {
+    function NM(D, L, y, {
         location: M = l.location,
         distance: g = l.distance,
         threshold: N = l.threshold,
@@ -2990,23 +2990,23 @@ var EqEditor = function(M) {
         var u = L.length,
             c = D.length,
             A = Math.max(0, Math.min(M, c));
-        let x = N,
-            E = A;
-        var T, Q = 1 < z || j;
-        const S = Q ? Array(c) : [];
-        for (; - 1 < (T = D.indexOf(L, E));) {
+        let Q = N,
+            x = A;
+        var T, E = 1 < z || j;
+        const S = E ? Array(c) : [];
+        for (; - 1 < (T = D.indexOf(L, x));) {
             var U = a(L, {
                 currentLocation: T,
                 expectedLocation: A,
                 distance: g,
                 ignoreLocation: O
             });
-            if (x = Math.min(U, x), E = T + u, Q) {
+            if (Q = Math.min(U, Q), x = T + u, E) {
                 let M = 0;
                 for (; M < u;) S[T + M] = 1, M += 1
             }
         }
-        E = -1;
+        x = -1;
         let k = [],
             t = 1,
             Y = u + c;
@@ -3020,7 +3020,7 @@ var EqEditor = function(M) {
                 expectedLocation: A,
                 distance: g,
                 ignoreLocation: O
-            }) <= x ? M = N : Y = N, N = Math.floor((Y - M) / 2 + M);
+            }) <= Q ? M = N : Y = N, N = Math.floor((Y - M) / 2 + M);
             Y = N;
             let z = Math.max(1, A - N + 1);
             var C = I ? c : Math.min(A + N, c) + u;
@@ -3029,15 +3029,15 @@ var EqEditor = function(M) {
             for (let M = C; M >= z; --M) {
                 var i = M - 1,
                     n = y[D.charAt(i)];
-                if (Q && (S[i] = +!!n), j[M] = (j[M + 1] << 1 | 1) & n, T && (j[M] |= (k[M + 1] | k[M]) << 1 | 1 | k[M + 1]), j[M] & w && (t = a(L, {
+                if (E && (S[i] = +!!n), j[M] = (j[M + 1] << 1 | 1) & n, T && (j[M] |= (k[M + 1] | k[M]) << 1 | 1 | k[M + 1]), j[M] & w && (t = a(L, {
                         errors: T,
                         currentLocation: i,
                         expectedLocation: A,
                         distance: g,
                         ignoreLocation: O
-                    })) <= x) {
-                    if (x = t, (E = i) <= A) break;
-                    z = Math.max(1, 2 * A - E)
+                    })) <= Q) {
+                    if (Q = t, (x = i) <= A) break;
+                    z = Math.max(1, 2 * A - x)
                 }
             }
             if (a(L, {
@@ -3046,14 +3046,14 @@ var EqEditor = function(M) {
                     expectedLocation: A,
                     distance: g,
                     ignoreLocation: O
-                }) > x) break;
+                }) > Q) break;
             k = j
         }
         const d = {
-            isMatch: 0 <= E,
+            isMatch: 0 <= x,
             score: Math.max(.001, t)
         };
-        return Q && ((M = function(M = [], N = l.minMatchCharLength) {
+        return E && ((M = function(M = [], N = l.minMatchCharLength) {
             let z = [],
                 j = -1,
                 T = 0;
@@ -3064,7 +3064,7 @@ var EqEditor = function(M) {
             return M[T - 1] && T - j >= N && z.push([j, T - 1]), z
         }(S, z)).length ? j && (d.indices = M) : d.isMatch = !1), d
     }
-    class NM {
+    class zM {
         constructor(M, {
             location: N = l.location,
             threshold: z = l.threshold,
@@ -3141,7 +3141,7 @@ var EqEditor = function(M) {
                         isMatch: M,
                         score: N,
                         indices: z
-                    } = MM(j, M, N, {
+                    } = NM(j, M, N, {
                         location: D + z,
                         distance: L,
                         threshold: y,
@@ -3158,24 +3158,24 @@ var EqEditor = function(M) {
             return A && T && (N.indices = u), N
         }
     }
-    class n {
+    class i {
         constructor(M) {
             this.pattern = M
         }
         static isMultiMatch(M) {
-            return zM(M, this.multiRegex)
+            return jM(M, this.multiRegex)
         }
         static isSingleMatch(M) {
-            return zM(M, this.singleRegex)
+            return jM(M, this.singleRegex)
         }
         search() {}
     }
 
-    function zM(M, N) {
+    function jM(M, N) {
         M = M.match(N);
         return M ? M[1] : null
     }
-    class jM extends n {
+    class TM extends i {
         constructor(M, {
             location: N = l.location,
             threshold: z = l.threshold,
@@ -3186,7 +3186,7 @@ var EqEditor = function(M) {
             isCaseSensitive: y = l.isCaseSensitive,
             ignoreLocation: g = l.ignoreLocation
         } = {}) {
-            super(M), this._bitapSearch = new NM(M, {
+            super(M), this._bitapSearch = new zM(M, {
                 location: N,
                 threshold: z,
                 distance: j,
@@ -3210,7 +3210,7 @@ var EqEditor = function(M) {
             return this._bitapSearch.searchIn(M)
         }
     }
-    class TM extends n {
+    class DM extends i {
         constructor(M) {
             super(M)
         }
@@ -3236,7 +3236,7 @@ var EqEditor = function(M) {
             }
         }
     }
-    const d = [class extends n {
+    const n = [class extends i {
             constructor(M) {
                 super(M)
             }
@@ -3257,7 +3257,7 @@ var EqEditor = function(M) {
                     indices: [0, this.pattern.length - 1]
                 }
             }
-        }, TM, class extends n {
+        }, DM, class extends i {
             constructor(M) {
                 super(M)
             }
@@ -3278,7 +3278,7 @@ var EqEditor = function(M) {
                     indices: [0, this.pattern.length - 1]
                 }
             }
-        }, class extends n {
+        }, class extends i {
             constructor(M) {
                 super(M)
             }
@@ -3299,7 +3299,7 @@ var EqEditor = function(M) {
                     indices: [0, M.length - 1]
                 }
             }
-        }, class extends n {
+        }, class extends i {
             constructor(M) {
                 super(M)
             }
@@ -3320,7 +3320,7 @@ var EqEditor = function(M) {
                     indices: [0, M.length - 1]
                 }
             }
-        }, class extends n {
+        }, class extends i {
             constructor(M) {
                 super(M)
             }
@@ -3341,7 +3341,7 @@ var EqEditor = function(M) {
                     indices: [M.length - this.pattern.length, M.length - 1]
                 }
             }
-        }, class extends n {
+        }, class extends i {
             constructor(M) {
                 super(M)
             }
@@ -3362,11 +3362,11 @@ var EqEditor = function(M) {
                     indices: [0, M.length - 1]
                 }
             }
-        }, jM],
-        DM = d.length,
-        LM = / +(?=([^\"]*\"[^\"]*\")*[^\"]*$)/;
-    const yM = new Set([jM.type, TM.type]);
-    class gM {
+        }, TM],
+        LM = n.length,
+        yM = / +(?=([^\"]*\"[^\"]*\")*[^\"]*$)/;
+    const gM = new Set([TM.type, DM.type]);
+    class IM {
         constructor(M, {
             isCaseSensitive: N = l.isCaseSensitive,
             includeMatches: z = l.includeMatches,
@@ -3388,20 +3388,20 @@ var EqEditor = function(M) {
                 threshold: y,
                 distance: g
             }, this.pattern = N ? M : M.toLowerCase(), this.query = ([z, O = {}] = [this.pattern, this.options], z.split("|").map(M => {
-                var j = M.trim().split(LM).filter(M => M && !!M.trim());
+                var j = M.trim().split(yM).filter(M => M && !!M.trim());
                 let T = [];
                 for (let z = 0, M = j.length; z < M; z += 1) {
                     var D = j[z];
                     let M = !1,
                         N = -1;
-                    for (; !M && ++N < DM;) {
-                        const g = d[N];
+                    for (; !M && ++N < LM;) {
+                        const g = n[N];
                         var L = g.isMultiMatch(D);
                         L && (T.push(new g(L, O)), M = !0)
                     }
                     if (!M)
-                        for (N = -1; ++N < DM;) {
-                            const I = d[N];
+                        for (N = -1; ++N < LM;) {
+                            const I = n[N];
                             var y = I.isSingleMatch(D);
                             if (y) {
                                 T.push(new I(y, O));
@@ -3443,7 +3443,7 @@ var EqEditor = function(M) {
                         y = 0, D = 0, L.length = 0;
                         break
                     }
-                    D += 1, y += u, T && (I = c.constructor.type, yM.has(I) ? L = [...L, ...O] : L.push(O))
+                    D += 1, y += u, T && (I = c.constructor.type, gM.has(I) ? L = [...L, ...O] : L.push(O))
                 }
                 if (D) {
                     let M = {
@@ -3459,46 +3459,46 @@ var EqEditor = function(M) {
             }
         }
     }
-    const Z = [];
+    const d = [];
 
-    function e(z, j) {
-        for (let N = 0, M = Z.length; N < M; N += 1) {
-            let M = Z[N];
+    function Z(z, j) {
+        for (let N = 0, M = d.length; N < M; N += 1) {
+            let M = d[N];
             if (M.condition(z, j)) return new M(z, j)
         }
-        return new NM(z, j)
+        return new zM(z, j)
     }
-    const J = {
+    const e = {
             AND: "$and",
             OR: "$or"
         },
-        o = {
+        J = {
             PATH: "$path",
             PATTERN: "$val"
         },
-        P = M => !(!M[J.AND] && !M[J.OR]),
-        IM = N => ({
-            [J.AND]: Object.keys(N).map(M => ({
+        o = M => !(!M[e.AND] && !M[e.OR]),
+        OM = N => ({
+            [e.AND]: Object.keys(N).map(M => ({
                 [M]: N[M]
             }))
         });
 
-    function OM(M, L, {
+    function uM(M, L, {
         auto: y = !0
     } = {}) {
         const g = z => {
             let M = Object.keys(z);
-            var N = !!z[o.PATH];
-            if (!N && 1 < M.length && !P(z)) return g(IM(z));
-            if (!k(j = z) && R(j) && !P(j)) {
-                var j = N ? z[o.PATH] : M[0],
-                    N = N ? z[o.PATTERN] : z[j];
-                if (!t(N)) throw new Error("Invalid value for key " + j);
+            var N = !!z[J.PATH];
+            if (!N && 1 < M.length && !o(z)) return g(OM(z));
+            if (!U(j = z) && K(j) && !o(j)) {
+                var j = N ? z[J.PATH] : M[0],
+                    N = N ? z[J.PATTERN] : z[j];
+                if (!k(N)) throw new Error("Invalid value for key " + j);
                 const D = {
-                    keyId: C(j),
+                    keyId: w(j),
                     pattern: N
                 };
-                return y && (D.searcher = e(N, L)), D
+                return y && (D.searcher = Z(N, L)), D
             }
             let T = {
                 children: [],
@@ -3506,18 +3506,18 @@ var EqEditor = function(M) {
             };
             return M.forEach(M => {
                 const N = z[M];
-                k(N) && N.forEach(M => {
+                U(N) && N.forEach(M => {
                     T.children.push(g(M))
                 })
             }), T
         };
-        return P(M) || (M = IM(M)), g(M)
+        return o(M) || (M = OM(M)), g(M)
     }
 
-    function uM(M, T) {
+    function cM(M, T) {
         const N = M.matches;
-        T.matches = [], Y(N) && N.forEach(N => {
-            if (Y(N.indices) && N.indices.length) {
+        T.matches = [], t(N) && N.forEach(N => {
+            if (t(N.indices) && N.indices.length) {
                 var {
                     indices: z,
                     value: j
@@ -3531,25 +3531,25 @@ var EqEditor = function(M) {
         })
     }
 
-    function cM(M, N) {
+    function AM(M, N) {
         N.score = M.score
     }
-    class b {
+    class P {
         constructor(M, N = {}, z) {
             this.options = {
                 ...l,
                 ...N
-            }, this.options.useExtendedSearch, this._keyStore = new X(this.options.keys), this.setCollection(M, z)
+            }, this.options.useExtendedSearch, this._keyStore = new f(this.options.keys), this.setCollection(M, z)
         }
         setCollection(M, N) {
-            if (this._docs = M, N && !(N instanceof i)) throw new Error("Incorrect 'index' type");
-            this._myIndex = N || $(this.options.keys, this._docs, {
+            if (this._docs = M, N && !(N instanceof C)) throw new Error("Incorrect 'index' type");
+            this._myIndex = N || MM(this.options.keys, this._docs, {
                 getFn: this.options.getFn,
                 fieldNormWeight: this.options.fieldNormWeight
             })
         }
         add(M) {
-            Y(M) && (this._docs.push(M), this._myIndex.add(M))
+            t(M) && (this._docs.push(M), this._myIndex.add(M))
         }
         remove(z = () => !1) {
             const j = [];
@@ -3575,7 +3575,7 @@ var EqEditor = function(M) {
                 sortFn: L,
                 ignoreFieldNorm: y
             } = this.options;
-            let g = t(M) ? t(this._docs[0]) ? this._searchStringList(M) : this._searchObjectList(M) : this._searchLogical(M);
+            let g = k(M) ? k(this._docs[0]) ? this._searchStringList(M) : this._searchObjectList(M) : this._searchLogical(M);
             [M, {
                 ignoreFieldNorm: T = l.ignoreFieldNorm
             }] = [g, {
@@ -3590,7 +3590,7 @@ var EqEditor = function(M) {
                     M = M ? M.weight : null;
                     j *= Math.pow(0 === z && M ? Number.EPSILON : z, (M || 1) * (T ? 1 : N))
                 }), M.score = j
-            }), D && g.sort(L), p(N) && -1 < N && (g = g.slice(0, N)); {
+            }), D && g.sort(L), V(N) && -1 < N && (g = g.slice(0, N)); {
                 var [y, I, {
                     includeMatches: M = l.includeMatches,
                     includeScore: D = l.includeScore
@@ -3599,7 +3599,7 @@ var EqEditor = function(M) {
                     includeScore: j
                 }];
                 const O = [];
-                return M && O.push(uM), D && O.push(cM), y.map(N => {
+                return M && O.push(cM), D && O.push(AM), y.map(N => {
                     var M = N["idx"];
                     const z = {
                         item: I[M],
@@ -3612,7 +3612,7 @@ var EqEditor = function(M) {
             }
         }
         _searchStringList(M) {
-            const L = e(M, this.options),
+            const L = Z(M, this.options),
                 N = this._myIndex["records"],
                 y = [];
             return N.forEach(({
@@ -3621,7 +3621,7 @@ var EqEditor = function(M) {
                 n: z
             }) => {
                 var j, T, D;
-                Y(M) && ({
+                t(M) && ({
                     isMatch: j,
                     score: T,
                     indices: D
@@ -3638,7 +3638,7 @@ var EqEditor = function(M) {
             }), y
         }
         _searchLogical(M) {
-            const j = OM(M, this.options),
+            const j = uM(M, this.options),
                 y = (z, j, T) => {
                     var M, N;
                     if (!z.children) return {
@@ -3658,7 +3658,7 @@ var EqEditor = function(M) {
                         var L = z.children[M],
                             L = y(L, j, T);
                         if (L.length) D.push(...L);
-                        else if (z.operator === J.AND) return []
+                        else if (z.operator === e.AND) return []
                     }
                     return D
                 },
@@ -3669,7 +3669,7 @@ var EqEditor = function(M) {
                 $: N,
                 i: z
             }) => {
-                if (Y(N)) {
+                if (t(N)) {
                     let M = y(j, N, z);
                     M.length && (T[z] || (T[z] = {
                         idx: z,
@@ -3684,7 +3684,7 @@ var EqEditor = function(M) {
             }), D
         }
         _searchObjectList(M) {
-            const T = e(M, this.options),
+            const T = Z(M, this.options),
                 {
                     keys: N,
                     records: z
@@ -3694,7 +3694,7 @@ var EqEditor = function(M) {
                 $: j,
                 i: M
             }) => {
-                if (Y(j)) {
+                if (t(j)) {
                     let z = [];
                     N.forEach((M, N) => {
                         z.push(...this._findMatches({
@@ -3715,16 +3715,16 @@ var EqEditor = function(M) {
             value: M,
             searcher: y
         }) {
-            if (!Y(M)) return [];
+            if (!t(M)) return [];
             let g = [];
             var N, z, j, T;
-            return k(M) ? M.forEach(({
+            return U(M) ? M.forEach(({
                 v: M,
                 i: N,
                 n: z
             }) => {
                 var j, T, D;
-                Y(M) && ({
+                t(M) && ({
                     isMatch: j,
                     score: T,
                     indices: D
@@ -3752,7 +3752,7 @@ var EqEditor = function(M) {
             })), g
         }
     }
-    b.version = "6.5.3", b.createIndex = $, b.parseIndex = function(M, {
+    P.version = "6.5.3", P.createIndex = MM, P.parseIndex = function(M, {
         getFn: N = l.getFn,
         fieldNormWeight: z = l.fieldNormWeight
     } = {}) {
@@ -3760,13 +3760,13 @@ var EqEditor = function(M) {
             keys: M,
             records: j
         } = M;
-        const T = new i({
+        const T = new C({
             getFn: N,
             fieldNormWeight: z
         });
         return T.setKeys(M), T.setIndexRecords(j), T
-    }, b.config = l, b.parseQuery = OM, z = [gM], Z.push(...z);
-    class AM {
+    }, P.config = l, P.parseQuery = uM, z = [IM], d.push(...z);
+    class QM {
         constructor(M, N = 10) {
             this.trig_fn = ["\\sin", "\\cos", "\\tan", "\\asin", "\\sin^{-1}", "\\acos", "\\cos^{-1}", "\\atan", "\\tan^{-1}", "\\sinh", "\\cosh", "\\tanh", "\\asinh", "\\acosh", "\\atanh", "\\exp", "\\lg", "\\ln", "\\log", "\\log_{e}", "\\log_{10}", "\\lim", "\\liminf", "\\limsup", "\\max", "\\min"], this.color_fn = ["Red", "Green", "Blue", "Yellow", "Cyan", "Magenta", "Teal", "Purple", "Golden", "Pink", "Orange", "DarkRed", "DarkBlue", "DarkGreen", "DarkOrange"], this.currTagSelection = 0, this._isActive = !1, this.suggestionRange = N, this.callBack = M, document.getElementById("CC_floatingDiv") ? this.floatingDiv = document.getElementById("CC_floatingDiv") : this.floatingDiv = document.createElement("div"), this.floatingDiv.appendChild(document.createElement("ul")), this.floatingDiv.id = "CC_floatingDiv", this.floatingDiv.style.position = "fixed", this.floatingDiv.style.visibility = "hidden", document.body.appendChild(this.floatingDiv);
             var z, j, T;
@@ -3782,15 +3782,15 @@ var EqEditor = function(M) {
                 latex: "{\\color{" + this.color_fn[j] + "} }",
                 offset: 10 + this.color_fn[j].length
             });
-            for (T in U) {
-                var L = U[T].length;
-                for (let M = 0; M < L; M++) "insert" == U[T][M].operation && "\\" == U[T][M].args[0][0] && D.push({
-                    latex: U[T][M].args[0],
+            for (T in S) {
+                var L = S[T].length;
+                for (let M = 0; M < L; M++) "insert" == S[T][M].operation && "\\" == S[T][M].args[0][0] && D.push({
+                    latex: S[T][M].args[0],
                     panel: T,
                     id: M
                 })
             }
-            this.fuseSearch = new b(D, {
+            this.fuseSearch = new P(D, {
                 useExtendedSearch: !0,
                 minMatchCharLength: 2,
                 keys: ["latex"]
@@ -3828,7 +3828,7 @@ var EqEditor = function(M) {
                     for (let z in j) {
                         const T = document.createElement("li");
                         T.innerHTML = j[z].item.latex, j[z].item.panel ? T.addEventListener("click", M => {
-                            var N = U[j[z].item.panel][j[z].item.id];
+                            var N = S[j[z].item.panel][j[z].item.id];
                             this.callBack(N.args[0], N.args[1] || N.args[0].length)
                         }) : T.addEventListener("click", M => {
                             this.callBack(j[z].item.latex, j[z].item.offset)
@@ -3838,12 +3838,12 @@ var EqEditor = function(M) {
                 }
             } else {
                 this.show_div();
-                for (let z in S) {
-                    var N = S[z].latex;
+                for (let z in E) {
+                    var N = E[z].latex;
                     if (N && "\\" == N[0]) {
                         const j = document.createElement("li");
                         j.innerHTML = N, j.addEventListener("click", M => {
-                            var N = S[z];
+                            var N = E[z];
                             this.callBack(N.args[0], N.args[1] || N.args[0].length)
                         }), this.floatingDiv.firstElementChild.appendChild(j)
                     }
@@ -3864,11 +3864,21 @@ var EqEditor = function(M) {
             return null
         }
     }
-    const s = document.createElement("style");
-    s.type = "text/css", s.innerHTML = ".CCTextArea .underline {border-bottom: solid 2px rgba(36,157,127,.8);}.CCTextArea > .CCtext {color:#00f;font-style: italic;}.CCTextArea > .CCmatrix{color:#f00;font-weight: bold;}.CCTextArea > .CCoperator{color:#0a0;font-weight: bold;}.CCTextArea > .CCcommand{font-weight: bold;}.CCTextArea > .CCword{color:#057;}.CCTextArea > .CCnumbers{color:#060;font-weight: bold;}.CCTextArea > .CCbrackets{color:#6a6;font-weight: bold;}.CCToolbar .cc_dropdown {display: inline-block;vertical-align: middle;-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;white-space: initial;margin:5px 6px}.CCToolbar .cc_dropdown img:hover, .cc_dropdown-content img:hover {background-color: #d9d9d9;}.CCToolbar .cc_dropdown > span {padding:0 2px;}.CCToolbar .cc_dropdown-content {display:none;position: absolute;background-color: white;padding: 6px 2px 5px 2px;box-shadow: 0px 16px 16px 0px rgba(0,0,0,0.2);z-index: 10;}.CCToolbar .cc_dropdown-content.cc_show {display:grid;}.CCToolbar .vertical-line {width: 1px;background-color: #063A92;height: 35px;display:inline-block;vertical-align: middle;}.CCToolbar .toolbar {white-space: nowrap;}.CCToolbar .scrollable {overflow-y: hidden;overflow-x: auto;-webkit-overflow-scrolling: touch;}.CCToolbar .toolbar::-webkit-scrollbar{-webkit-appearance: none;}.CCToolbar .toolbar::-webkit-scrollbar-thumb {background-color: #003794;border: 3px solid transparent;border-radius: 9px;background-clip: content-box;}.CCToolbar .toolbar::-webkit-scrollbar-track {background-color: rgba(100, 100, 100, .1);width: 10px;}.CCToolbar .matrixCellSelection {column-gap: 5px;row-gap: 5px;padding:10px;}.CCToolbar .matrixCellSelection div {height: 10px;width: 100%;background-color: #eee;}.CCToolbar .matrixCellSelection div.cellon {background-color: #063A92;}.CCToolbar .cc_manualSelection {display: grid;grid-template-columns: repeat(2, auto);grid-template-rows: auto;column-gap: 5px;row-gap: 5px;padding:10px; padding-top:0;}.CCToolbar .cc_manualSelection input {width: 40px;height: 20px;font-size: 12px}.CCToolbar .cc_manualSelection label {font-size: 12px;font-weight: 500;text-align: right;margin: auto 0;}.CCToolbar .cc_manualSelection button {width: 100%;height: 20px;text-align: center;font-size: 10px;border: none;background-color: #063A92;color: white;}#CC_floatingDiv {border: 1px solid #003794;overflow-y: scroll;height: 100px;z-index: 5;background-color: #fff;}#CC_floatingDiv ul {list-style-type: none;padding: 3px;margin: 0px;font-size: 80%;float:left;font-weight:400;color:black;line-height:normal;font-family:Arial, Helvetica, sans-serif;}#CC_floatingDiv li:before {content:none;}#CC_floatingDiv ul .active,#CC_floatingDiv ul li:active,#CC_floatingDiv ul li:focus,#CC_floatingDiv ul li:hover {background-color: #003794;color: white;}";
-    return document.head.appendChild(s), M.History = class {
+    const s = {
+        "ionicons_lock.png": "iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAMAAABrrFhUAAACAVBMVEUAAAAAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QdKaiNAAAAqnRSTlMAAQIDBAUGBwgJCgsMDQ4PEBESFBUWFxgZGhscHR4fICEiIyQlJikqKy0uLzAyNDU2Nzg5Ojs8PT4/QEFCQ0RFRkdJSktMTU5PUFVWV1hZXF1fYWJjZGZnaGlsbXFzdHV3eHl7fH5/g4WJi4yOj5GUlZeYmpudnqCio6WmqKqrra+wsrS1t7m6vL7AwcXHyMrMztHT1dfZ2tze4OLk5ujp6+3v8fP19/n7/XHy4YUAAAZrSURBVHja7Z3rW1VFFMb3PgcOh4uAWpQQakQ3joIX7GbJKQo0yLumKFoWVCSaBgJaoqCIGuAFQuMi1wPMX9mnnuhDM2sf9qzZe573/eyz37V+zJm9Zs3M1nG4lVGUqD/fMzIjVmtmpOdcfaIow7FbsfLDndNCpunOw29k2pl8xjsX/hQ0jX37tm1DIbfujvCm/rpca7LPqnkg0tH9miwb0t/6i0hfl7eEPPtIclysTeM1kRDPe41zYu2abQjpjBg5lBL+KHUwhKPATc4I/zSzzw1Z/mVjwl+Nbg1T+vHLwn+1h+eluDcldGjx/ZDUPdeFLnWHYRBsnxf6NLct8JP/BaFX54P9Osh5IHRrMDvA+W+eE/o1WxLY/D8SLFp5L6D5nxFcOh3I6a9d8OmnAC59ugWnOoP2Moj2C17dCtYCMToouHU3SAQidwW/+oJDINInTOhmUOYB97owo2sBAfCjMKXWQOR/Mv0F/ujQYP/g0Ohi2k84EoD8P04j7qHW2vL1mf/+hN3MDeW1rcNpPMl8VVy84nW/p6Ek+n8v05KG+17XBa+Y7v698DZxV6u2fjOrb3p64pTZJpHrZf0/2RgnPTS7ccLDU+8ZfRl66P88qqRH6lY9pj/4rMH8K+ht/YTHR2+jbyy8ZSz/bGr/cyHpfZy6yQVqi8jYNECtgC/G0np87CLx+b2G8v+UuK+XSNshQdxf3GumA0zb/+mNrcEj1ksrKY10imnv6+NrdDlBcrlhIP8dlMCWK9fsU7VMMdrO3wOYoszPfhSqRbMEpwn27sgpSulX4ItVAaUwPMac/zpCTM9z/Ko3nhNWRczHCgknICb8CymHMAZ+Zs3/JcIAeN1Hv80Evw2cAAhdQH8bdh3B6hBuUocz7O+0HBlSWzL2RrqUwbzwuzaLTys9f2XLf726APL/r1GkLogKuAD8oAxFx3muPUrXFqb8s5SRdGnx7VTWAjEeAF8qz3Lp6VDElAdwDvAAUFYlOzQZVyprT5b8y1VhXNVmfUVlXcYB4KoiiCV9LbrYksL7CkP+GbpbIDIdVU2DDHcrditimNcZQ1Q1D+7UD6DX6Excr3D/zXgRMKW3NeNOKvy1lwK7FAHUaPb/ROFfpRuA4hbgsu5ZKKp4EbRr9neXTJfj38kDSGneLC5VjMCXtQPYqIhA81nyI3L3PxgKkYfyEA7pdb8nd9/DAEAxDd/Rah5RjD+Obx+oSlGt7+HXTNL/R4pd+WKd3gfk3l+wAKiVB1Gv01uxH1LIAqDAYCUwGYB+hOPId8r+0uicKWd/hglAk7GZuETuXMEE4F1js+AHcud1TADyjJ0fPi3vhTlckp9OOqnP+Jr8HhMbAPnxpA5T0+8JNgDHpHGM61sLy397CTYAillQ24o4HpQTCordWW19+Y2G23HUekTbX0KxJ+TwydD+ULXU9hkjAPmH+XabWQv+zgjghpn14HGp7feMAOQ3VY7qsv1GanuQEUCDNJJzumzlFxg+ZwTwmTSSNl22PYG5tfChNJJuXba3pba7GAHsNHOFZkBqy/mRpwozvdmHgbm99qb8dq4u2xG2w9EqbZEf09Vl+8Tkptx/JD+s/ESX7dPAAHhVGslTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACANOWW7m9qu7RK8g8f9l3ik7w/vbj6n7Y17S9N68BArFnP/xNhQqlm71v3NfakL4QQqaTH0d8ibFOLp99Bm7BPXj7I/pWwUY3k/AuFnSJ/YaLLUgDU78zkCVuVRwOQtBbAPhqADmsBED/tMGwtAOK1xnlrAczTAAh7BQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEDoAK9bmv0ID8MxaAOM0AP3WArhNA9BsLYCzNABl1gIoowFwZy3Nf8alAXCSlgLYR8zfcR9bmf8j6gBwnFwbfwSzuQ5dxQvW5b+wyfGi/DHL8h/Ld7wp+vWyTTXwqajjWfG6AUvSH6iLO+nJjeUXhl35Mfnk/zdR+dtiZ9zcKQAAAABJRU5ErkJggg==",
+        "ionicons_unlock.png": "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",
+        "ionicons_trash_on.png": "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",
+        "ionicons_trash_off.png": "iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAMAAABrrFhUAAACQFBMVEUAAAAAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5QAN5Q0QP2XAAAAv3RSTlMAAQIDBAUGBwgJCgsMDQ4PEBESExQVFhcYGRobHB0eHyAhIiMkJSYnKCkqKywtLi8wMTIzNDU2Nzg5Ojs8PT4/QEFCQ0RFRkdJSktMTU5PUFFSVFVWV1hZW1xdXl9hYmNkZmdoaWtsbW9wcXN0dXd4eXt8fn+AgoOFhoiJi4yOj5GSlJWXmJqbnZ6goqOlpqiqq62vsLK0tbe5ury+wMHDxcfIyszOz9HT1dfZ2tze4OLk5ujp6+3v8fP19/n7/astjCAAAA1JSURBVHja7Z1LjBxXFYar+v2c7ukHTiJFMdgRCIESiWBgFVnZIAQL2EQyiA1KCIIA4rFAIguICJsoysqLyOyiyFJ4yIgIRUI2CyRDhGUBMYIER8JIUdLTM55X93RPv9i469ruunVO3XPuudV21+qOXVNT9dV5/adu3fI9+1vqvuMfWi+lY/3OeL979T/dmf2T863/gYdPPWL6u5PzZ99ZdgAnv1Mj/f7/fvbvZQaw/sJR8jH+8sxoaQF85tk0w1F2v/HukgJ4/Cme40yf/udSAuC6fs/zvv6WvRRlz/75rt873Vo+C6j/Ms14tM3HJ5bOM20LwOkG59FKjYuWzjNj6biPfvCmH966cHlnMI13Y4rNE4/dq37+/MvvL5UL+L+uB+M3f9I1PMqx5z4QjP/6w6UKgh9X13/uadPr966e+nswfqS6VABOBaMrLxIOM/n+djD+7DIB8E8Ew5+SDjR+IRh+bpkAHAlCyzsd2pH+FKS/o+klAnAsGF0gHmmmokBjiQCoHHiZeqhLweieJQKgcsAO9VAqhawtEYBSMDqgHkqlgfISAVBHJXf1pmKnepduKwArACsAKwArACsAKwArACsAd+sGdoWN2hD5YFShykGlAasmpzKDmtFgV/jCct/gv3135QIrACsAKwArACsAKwArAKaV4H9v+ekBzb+73+rBfMTtm4tPcIJZzPkBvy/MRycTBuAL35uPfnDJogts0DSCxU1No7ruiQDIJQxAOxjtygAoJdYC+jYBqKf9lcQCGMpYQD2xLjCRAdBMGIDAIvetFkJbISaXiC0dco9sANhNKoCcEIBeiM8lYisKARgk1QIqQgDGSQVQFwIwO0woAJWUulYBKL4ZP1EA1P3YFAJgbaI9FcCuFID8HSEFCADKiQLQNpQCBABrCbWAsRSA9WRmgbhTU+MCSKgY8HOGZUBsADvJBJAxrYNiJ7N9FIAvPnpj8NvzEXt9Zf5e/Stv6Hd68Jvz0Zk39XuplNSxDGCAUkP3PHRj8HYUgOPzvf4YsdP9Dy2W+4tb2ZNygRHKAvb5cmUZleCrYgBmYwyAHuau4TbcqwfrplIg/qOx4A/UMBZQYbSAA5QW2rINIDAxPyXsAkNUIbgjBiDq0UjfhgscogrBnhyAggiAckj8jQIwlANQQSRLThcYo1xgbBuAKjQiomBwG9KMLjDBWMBwZhuAarg0EADoEzCUBUTN+ayblgHxT3AHUwqObACIuLcpXw4ASgwoAGk2FxhE7JT15ACgngxMQk7NcCtg8ltREABKDEwxxQJO6IeYHqcWig9gOkXEgJkwgJogAJUGmhg7KRABpFElXsNYChgA2Fh0vIhQWWQDsI8qBHfsA+hgmilsADIoAG3UXtwWEPVopMdVC2dRLtDyMMmSHUBRoCGQi+kCY0kAVYGGQD4egNHMPgAlBtYRLkC1gALKBYIYEH/RqvgA1KIeTQEXwAEoGpcBBgBQYoDNBUoYAOaPRUwAHGDkIJsLoJrCOVEAh7EsgA/AALOTBIDpTBJAGQOgElKl2QOgyu0IF+jzx4CIpvC6uRQwAbCBSIMH/BYQ0RRuhqQoCQBpHwZQZgMwxhSCPVEAEe2eAeH4GheYYAAcyAIowP0AKgFUT7SN8RMbAMqIXCkBILCAyUwCAGaFvzGmaRDLBQ4wWmjTkwCgIq3+0ciEC0AZE96a5nWQCYA9RCnI1hYuI9Swnzavg0wA9BEA2NrCBQQAwmMRIwCHGDV0CGcKzOZjMnxBGMA0lhoqMQHYt6OFjLLUdhwAtLZwCgNAJSOZLKA4txANAVotnMG4QIMgBWgAMF1RmhpCPRdpYXayAiDi4TcTgFw8AAfSAHIwgLIkgJEMAFVuFOEYwGUBfYQWmk5lACgxULHtAqiueGABW54MALVGRd22CxQx7t0ilAFGAPYQaojJBYqLLZaIOkAKQB9RCzO5gCryhohUKQUA82SAqS1cDvmjrFrICMAEAeCA2wJGCDeRAqCCQBsGUGKyAH1TuEqRAmYAOrAFDEl/IMQC9E3hWkh6sgwgMLUmIk6keCxghtBCe+IActpHI0yTZQMAsxlcCBp90IQGQN/yHPMAwDSFW4hMYQ1AHs4UWRYLwFTCs6kUgK4HxnimtjCmKdwitEMMAVxfrEJv32awkcRygX2EGNwQA6BWqdA/IR+wAMBYQFMeQN+D82AP7hnEEUP6GODn5QEM46ghnqU29BaQCWnU2AaAWU6J5cEApitOmSJmXKf1YAAsDYGUB7tAKSQ5WQewIdQQwHTFVSLadgCgZTcGYN4WWCdJASqAul0XyIYkHm0WjLuEEgsA/Tv0LC6QQ8QAmhSgAtBX+iwukEcIPdPVVEkAuh5Y5rC4QH6xsNRbwK4nB2DTA+8vC4BiSO2lBdARBKBg10AAFBfAzBSmaSFqIaR/NHLAawH6nmjdBYAhXAsPOEphRFM4lXIBYBIDgO9zAJjApYIkgNkArIWV0/ocMUDb7SrQpIBp0xquhVnawqopjDCS68kCwDJbuARXuTXPRR2AkIMss4URHbEGTQqYAuiAlSDLZFlEV9x8CSUeC9DeX5a2MKIp3KJJATqAHFgJFay6QBvexQaALQ+sczjawnFcYEMUgIq4FZt6OI4LyALoLZbiWgCEWriYWACI5ZQ49LAPu0DZDQDEkwGGnhjisQBtipg5AMSHFhhiAAJAjigFjCewwKUggwuk4SpPBZhNRwBsugDidYkqUQokG0B2sarSa6G+IwANizEgG5J1btuaRClAB6D92ArDyrL5kPaKrhKOv4QSEwDtoxGGIFiAAbRAJ7EEYAsUewxrKCgAI1uFoDGAHQ+6vgFdDCEmyrZdAVCViW6iWBCUzNvCCADOLECFZV0aYGgLI5rCQRboCAOA11ZlaAuXwev3M64sAP7QAkNbuAwWORmqFDCfzN6FADDMFob7IYWQtCQEAKyFGdrCcEesFJKWpAHo5KCa4Z+3ZwE1WC45swCGtjDcFF6nSgEGAGtgQ6BozwWaVClgDqADZjm6HIRdIPC/4UwawCYY5OkAYBcgF4LmAFTULd6dANQ5Va3pYfhtgbY7AIOQVKRBZAzAT7IFjEA1RHYBxGT5mjsAarmKli0XSC2WFNo95AGoNNC25QLwY4EcWQoQAIClINkFMiEBRxMljaUAAQD4Cjm5LZwNaa5o8qTp9AgWC2jbigEwgDpoIxIAmpAYMnWBPFjoN8hSgANA3gcqhaI1AIQPKzBmAZ0aGi4WNIaFoLYnGADoevIAtj2g4XFoHwC9EiYA2F9Urbdu5DUUStD1M1TCBACqOluDABi2heF+iFMAysI179BPQgo25n6IUwDqQwuaPDgFWybUdoBfWKjKBAGo8htsjBcsuUCaLgUoAMBSsE8EALpAPiQluQAAqqGiJRdAfYPHIQDqq4OgC1TBhkFCLKBsyQWUFho5BbBuCQDoApQPKzAACOrvVMqOHi5BLkD5sAIDgG0oz1N7YngL2HACQK1YUbAcA3qQFuo4AdD3gAukuoAPxXjHFqDEQM2KC8BdcccAVK3fsOIC6tR0Db+GWwDghxaIbeF0iK3deu4pt1kArISIMSADAcgwSAGrAIiLSGShOq/ggQ0DIQAaOUhcUjAb0lq5ZaswSAGrFkDsiuZDwu0t2xqDFCAB6KABpKwACDSIyYcVOAB0gTRHnC1cADxAed6W5wbAdeACiWso4LXQhiMASgzkAABGXVHwxWHnAPqLN0tTKhr1xcuJB6CCXBUolvMkAKAYdAVgAqmh/oI1G8WAxFqACgJNQA0VrbhAhUEK0ABApWAvOkYQXSAdko6EAUCVEK0hALlALiQdubIACEDZhgugPsKUEBeo2HCBKiSXE2QBVlwgeCwym7oC0MVmASsW0GBohxABBNFX8w49LQZAS8mxlAE0ALuA2unxuMDAYiFIA9BflK6MLpACACTAAoaAGiI9H/ehIE9cUJii1OebmgdWez/s/6+9dmMQPpf74txC/hUK4DUgCPK4AO3j8L35rQ1/Qr7xfORvv/561P9Onwf+eHMhGYm7AOajY9Y2P+s+DWK+NGFty7BIAS4ALXkAeQ+oE+50AJivcd7RAJQWmrgD0HUYAxqL9ag8gKAXVZMHQF4/hgPALtNxTDaeSph44qpGy4kDaCcBgBIDxbvTAiYOLaDEUgkTAaiVYuQtoJaELKAU/5q7NLjvEsC1+eBj4lJgLQlpUCn5k9IAjgajLZcALs4Hx6UF8ZNBDDx0CeBKMPqR7PU/8Mn56A+eSwCDgMAnnhBVQqeD4TmnALyXgtGpn+fFrv9TvwqqgGvv0Q7lU8/l7BE1Pv+7t/tTy9fuZ46c+PJNs7O//Q/HAB58SVsd2thSt53wlW95jgF4P37Mc7eNv7TnuY0Bnvfcew4BPLPnOQcw/dqes+v/xZ899wC8/lddEXjlZYagyqJMz9zr4vpfPMdwkDTHmYx+c98x8cvfffINlrTKdDrHnpU1gtnZMzwVh892Sh994mG5u//qq0OmQ/mMp5X7yKc/fH+1YPXSJ73u1cuXOnwH/D+GEX8WtuYL/QAAAABJRU5ErkJggg==",
+        "ionicons_redo_on.png": "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",
+        "ionicons_redo_off.png": "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",
+        "ionicons_undo_on.png": "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",
+        "ionicons_undo_off.png": "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"
+    };
+    const b = document.createElement("style");
+    b.type = "text/css", b.innerHTML = ".CCTextArea .underline {border-bottom: solid 2px rgba(36,157,127,.8);}.CCTextArea > .CCtext {color:#00f;font-style: italic;}.CCTextArea > .CCmatrix{color:#f00;font-weight: bold;}.CCTextArea > .CCoperator{color:#0a0;font-weight: bold;}.CCTextArea > .CCcommand{font-weight: bold;}.CCTextArea > .CCword{color:#057;}.CCTextArea > .CCnumbers{color:#060;font-weight: bold;}.CCTextArea > .CCbrackets{color:#6a6;font-weight: bold;}.CCToolbar .cc_dropdown {display: inline-block;vertical-align: middle;-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;white-space: initial;margin:5px 6px}.CCToolbar .cc_dropdown img:hover, .cc_dropdown-content img:hover {background-color: #d9d9d9;}.CCToolbar .cc_dropdown > span {padding:0 2px;}.CCToolbar .cc_dropdown-content {display:none;position: absolute;background-color: white;padding: 6px 2px 5px 2px;box-shadow: 0px 16px 16px 0px rgba(0,0,0,0.2);z-index: 10;}.CCToolbar .cc_dropdown-content.cc_show {display:grid;}.CCToolbar .vertical-line {width: 1px;background-color: #063A92;height: 35px;display:inline-block;vertical-align: middle;}.CCToolbar .toolbar {white-space: nowrap;}.CCToolbar .scrollable {overflow-y: hidden;overflow-x: auto;-webkit-overflow-scrolling: touch;}.CCToolbar .toolbar::-webkit-scrollbar{-webkit-appearance: none;}.CCToolbar .toolbar::-webkit-scrollbar-thumb {background-color: #003794;border: 3px solid transparent;border-radius: 9px;background-clip: content-box;}.CCToolbar .toolbar::-webkit-scrollbar-track {background-color: rgba(100, 100, 100, .1);width: 10px;}.CCToolbar .matrixCellSelection {column-gap: 5px;row-gap: 5px;padding:10px;}.CCToolbar .matrixCellSelection div {height: 10px;width: 100%;background-color: #eee;}.CCToolbar .matrixCellSelection div.cellon {background-color: #063A92;}.CCToolbar .cc_manualSelection {display: grid;grid-template-columns: repeat(2, auto);grid-template-rows: auto;column-gap: 5px;row-gap: 5px;padding:10px; padding-top:0;}.CCToolbar .cc_manualSelection input {width: 40px;height: 20px;font-size: 12px}.CCToolbar .cc_manualSelection label {font-size: 12px;font-weight: 500;text-align: right;margin: auto 0;}.CCToolbar .cc_manualSelection button {width: 100%;height: 20px;text-align: center;font-size: 10px;border: none;background-color: #063A92;color: white;}#CC_floatingDiv {border: 1px solid #003794;overflow-y: scroll;height: 100px;z-index: 5;background-color: #fff;}#CC_floatingDiv ul {list-style-type: none;padding: 3px;margin: 0px;font-size: 80%;float:left;font-weight:400;color:black;line-height:normal;font-family:Arial, Helvetica, sans-serif;}#CC_floatingDiv li:before {content:none;}#CC_floatingDiv ul .active,#CC_floatingDiv ul li:active,#CC_floatingDiv ul li:focus,#CC_floatingDiv ul li:hover {background-color: #003794;color: white;}";
+    return document.head.appendChild(b), M.History = class {
         constructor(M) {
-            this.activeTextArea = void 0, this.clearBtn = document.createElement("button"), this.undoBtn = document.createElement("button"), this.redoBtn = document.createElement("button"), this.trashEnabled = document.createElement("img"), this.trashDisabled = document.createElement("img"), this.undoEnabled = document.createElement("img"), this.undoDisabled = document.createElement("img"), this.redoEnabled = document.createElement("img"), this.redoDisabled = document.createElement("img"), this.trashEnabled.style.height = "18px", this.trashEnabled.style.width = "18px", this.trashEnabled.alt = "Trash Enabled", this.trashEnabled.src = "assets/contextmenu/ionicons_trash_on.png", this.trashDisabled.style.height = "18px", this.trashDisabled.style.width = "18px", this.trashDisabled.alt = "Trash Disabled", this.trashDisabled.src = "assets/contextmenu/ionicons_trash_off.png", this.undoEnabled.style.height = "18px", this.undoEnabled.style.width = "18px", this.undoEnabled.alt = "Undo Enabled", this.undoEnabled.src = "assets/contextmenu/ionicons_undo_on.png", this.undoDisabled.style.height = "18px", this.undoDisabled.style.width = "18px", this.undoDisabled.alt = "Undo Disabled", this.undoDisabled.src = "assets/contextmenu/ionicons_undo_off.png", this.redoEnabled.style.height = "18px", this.redoEnabled.style.width = "18px", this.redoEnabled.alt = "Redo Enabled", this.redoEnabled.src = "assets/contextmenu/ionicons_redo_on.png", this.redoDisabled.style.height = "18px", this.redoDisabled.style.width = "18px", this.redoDisabled.alt = "Redo Disabled", this.redoDisabled.src = "assets/contextmenu/ionicons_redo_off.png", this.historyMenuId = M, this.historyMenu = document.getElementById(this.historyMenuId), this.historyMenu ? (this.clearBtn.appendChild(this.trashDisabled), this.undoBtn.appendChild(this.undoDisabled), this.redoBtn.appendChild(this.redoDisabled), this.historyMenu.appendChild(this.clearBtn), this.historyMenu.appendChild(this.undoBtn), this.historyMenu.appendChild(this.redoBtn), this.clearBtn.addEventListener("click", () => {
+            this.activeTextArea = void 0, this.clearBtn = document.createElement("button"), this.undoBtn = document.createElement("button"), this.redoBtn = document.createElement("button"), this.trashEnabled = document.createElement("img"), this.trashDisabled = document.createElement("img"), this.undoEnabled = document.createElement("img"), this.undoDisabled = document.createElement("img"), this.redoEnabled = document.createElement("img"), this.redoDisabled = document.createElement("img"), this.trashEnabled.style.height = "18px", this.trashEnabled.style.width = "18px", this.trashEnabled.alt = "Trash Enabled", this.trashEnabled.src = "data:image/png;base64," + s["ionicons_trash_on.png"], this.trashDisabled.style.height = "18px", this.trashDisabled.style.width = "18px", this.trashDisabled.alt = "Trash Disabled", this.trashDisabled.src = "data:image/png;base64," + s["ionicons_trash_off.png"], this.undoEnabled.style.height = "18px", this.undoEnabled.style.width = "18px", this.undoEnabled.alt = "Undo Enabled", this.undoEnabled.src = "data:image/png;base64," + s["ionicons_undo_on.png"], this.undoDisabled.style.height = "18px", this.undoDisabled.style.width = "18px", this.undoDisabled.alt = "Undo Disabled", this.undoDisabled.src = "data:image/png;base64," + s["ionicons_undo_off.png"], this.redoEnabled.style.height = "18px", this.redoEnabled.style.width = "18px", this.redoEnabled.alt = "Redo Enabled", this.redoEnabled.src = "data:image/png;base64," + s["ionicons_redo_on.png"], this.redoDisabled.style.height = "18px", this.redoDisabled.style.width = "18px", this.redoDisabled.alt = "Redo Disabled", this.redoDisabled.src = "data:image/png;base64," + s["ionicons_redo_off.png"], this.historyMenuId = M, this.historyMenu = document.getElementById(this.historyMenuId), this.historyMenu ? (this.clearBtn.appendChild(this.trashDisabled), this.undoBtn.appendChild(this.undoDisabled), this.redoBtn.appendChild(this.redoDisabled), this.historyMenu.appendChild(this.clearBtn), this.historyMenu.appendChild(this.undoBtn), this.historyMenu.appendChild(this.redoBtn), this.clearBtn.addEventListener("click", () => {
                 this.activeTextArea && this.activeTextArea.clear(), this.updateHistoryButtons()
             }), this.undoBtn.addEventListener("click", () => {
                 this.activeTextArea && this.activeTextArea.undoHistory(), this.updateHistoryButtons()
@@ -3884,7 +3894,7 @@ var EqEditor = function(M) {
         }
     }, M.Output = class {
         constructor(M = null, N = null, z = null, j = null) {
-            this.textAreaEl = null, this.divOutputEl = null, this.divMessageEl = null, this.apiUrl = "eqengine.js", this.format = "svg", this.exportFormat = "html", this.font = "", this.fontSize = "", this.dpi = "110", this.bg = "", this.inline = !1, this.exportDispatcher = {}, this.supportedFormats = ["gif", "pdf", "png", "svg", "emf"], this.supportedFonts = [{
+            this.textAreaEl = null, this.divOutputEl = null, this.divMessageEl = null, this.apiUrl = "https://latex.codecogs.com/", this.format = "svg", this.exportFormat = "html", this.font = "", this.fontSize = "", this.dpi = "110", this.bg = "", this.inline = !1, this.exportDispatcher = {}, this.supportedFormats = ["gif", "pdf", "png", "svg", "emf"], this.supportedFonts = [{
                 value: "",
                 desc: "Latin Modern"
             }, {
@@ -3932,7 +3942,7 @@ var EqEditor = function(M) {
             }, {
                 value: "blue",
                 desc: "Blue"
-            }], (this.genFunction = null) === j || (this.apiUrl = j).endsWith("/") || (this.apiUrl += "/"), this.exportDispatcher = {
+            }], (this.genFunction = null) !== j && (this.apiUrl = j), this.apiUrl.endsWith("/") || (this.apiUrl += "/"), this.exportDispatcher = {
                 wp: () => ({
                     msg: "Wordpress markup for this equation:",
                     str: "[latex]" + (this.inline ? "\\inline" : "") + this.getEquationText() + "[/latex]\n"
@@ -4088,7 +4098,7 @@ var EqEditor = function(M) {
                 ], this.curMatrixDims);
                 z = N + this.Matcher.matrixToString(j, M) + z;
                 this.insert(z, M.length + N.length + 15)
-            }, this.textChanged = !1, this.textCleared = !1, this.tabStops = [!1, !0, !0, !1, !1, !0, !0, !0, !1, !1, !1], this.lastKey = 0, this.historyMaxLen = 100, this.historyPos = 0, this.history = [], this.history_caretPos = [], this.redoEnabled = !1, this.undoEnabled = !1, this.textAreaId = M, this.textArea = document.getElementById(M), this.Matcher = new H, this.AutoSuggest = new AM((M, N) => {
+            }, this.textChanged = !1, this.textCleared = !1, this.tabStops = [!1, !0, !0, !1, !1, !0, !0, !0, !1, !1, !1], this.lastKey = 0, this.historyMaxLen = 100, this.historyPos = 0, this.history = [], this.history_caretPos = [], this.redoEnabled = !1, this.undoEnabled = !1, this.textAreaId = M, this.textArea = document.getElementById(M), this.Matcher = new H, this.AutoSuggest = new QM((M, N) => {
                 this.Caret_get();
                 var z = this.Matcher.cursor2token(this.tokens, this.caretPos, !1);
                 let j = 1;
@@ -4368,13 +4378,13 @@ var EqEditor = function(M) {
             });
             var N = this.panel_settings[z].columns,
                 j = this.panel_settings[z].rows,
-                T = U[z].length,
+                T = S[z].length,
                 D = Math.ceil(T / N);
             const L = document.createElement("span"),
                 y = document.createElement("div");
             let g = 0;
             for (let N = 0; N < D; N++)
-                for (let M = N; M < T; M += D) g = N < j ? this.genPanelIcon(U[z][M], z, L, g) : this.genPanelIcon(U[z][M], z, y, g);
+                for (let M = N; M < T; M += D) g = N < j ? this.genPanelIcon(S[z][M], z, L, g) : this.genPanelIcon(S[z][M], z, y, g);
             return L.style.setProperty("display", "grid"), L.style.setProperty("grid-template-columns", `repeat(${this.panel_settings[z].columns}, ${g}px)`), L.style.setProperty("grid-template-rows", "auto"), L.style.setProperty("column-gap", "5px"), L.style.setProperty("row-gap", "5px"), M.appendChild(L), y.style.setProperty("grid-template-columns", `repeat(${this.panel_settings[z].columns}, ${g}px)`), y.style.setProperty("grid-template-rows", "auto"), y.style.setProperty("column-gap", "5px"), y.style.setProperty("row-gap", "5px"), y.classList.add("cc_dropdown-content"), M.appendChild(y), M
         }
         genToolbar() {

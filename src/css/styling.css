@@ -1,0 +1,508 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+  font-family: 'Apple Chancery';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Apple Chancery'), url('/fonts/Apple Chancery.woff') format('woff');
+}
+
+
+:root {
+  --green: #28a745;
+}
+
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size:1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #212529;
+  text-align: left;
+  margin: 0;
+}
+
+section {
+  margin-top:4rem;
+}
+
+.container {
+  display: block;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+  position:relative;
+}
+
+@media (min-width: 1200px) {
+  .container { 
+    max-width: 1200px;
+  }
+}
+
+
+.beta {
+  font-size: 16px;
+  white-space: nowrap;
+  color: var(--white);
+  border:1px solid var(--green);
+  border-radius: .25rem;
+  width:90px;
+  margin:auto;
+}
+
+
+h1 {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 0.8;
+  margin-bottom:15px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  margin-top: 30px;
+}
+
+h3 { 
+  padding-top: 0;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  margin-top:25px;
+}
+
+h4 { 
+  font-size: 16px;
+  font-weight: 300;
+}
+
+h5 { 
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+em { 
+  color: #28a745;
+  font-weight: 400;
+}
+
+code {
+  font-size: 87.5%;
+  color: #e83e8c;
+  word-wrap: break-word;
+  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+img { 
+  vertical-align: middle;
+  border-style: none;
+}
+
+a, a:visited {
+  color:darkgreen;
+}
+
+a:hover {
+  color:blue;
+}
+
+button {
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
+  margin: 0;
+  font-family: inherit;
+}
+
+.pl-3 { 
+  padding-left:30px;
+}
+
+.center { 
+  text-align: center;
+}
+
+.text-black {
+  color: black;
+}
+
+.brand-link:hover {
+  text-decoration: none;
+}
+
+.eqn-badge {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 5px;
+  color: white;
+  border-bottom-left-radius: 5px;
+  width: 70px;
+  text-align: center;
+  background-color: #28a745;
+  font-size:90%;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.orange {
+  padding:5px;
+  border:1px solid orange;
+  background-color: orange;
+}
+
+.examples {
+  min-height: 40px;
+}
+
+
+
+
+/* ---- Nav Bar ---- */
+
+header { padding-bottom: 80px;
+}
+
+.navbar {
+  background-color: white;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+  position: fixed;
+  top:0;
+  right:0;
+  left:0;
+  z-index: 1030;
+
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  grid-template-areas: "brand menu";
+  grid-column-gap: 10px;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding-right: 15px;
+  line-height: 2rem;
+}
+
+[type=button]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+
+/* Branding */
+.nav-brand {
+  grid-area: brand;
+  padding-top: .41rem;
+  padding-bottom: .3125rem;
+  font-size: 1.25rem;
+  align-self: start;
+}
+
+.nav-brand img {
+  width:178px;
+  height:48px;
+}
+
+.nav-menu {
+  grid-area: menu;
+  text-align: right;
+  align-items: center;
+  position: relative;
+}
+
+#nav-toggle.show {
+  position: absolute;
+  right: -12px;
+  background-image: linear-gradient(180deg, #fff, #f5f5f5);
+  padding: 10px;
+  box-shadow: 1px 2px #ddd;
+}
+
+/* Menu items */
+#nav-m {
+  grid-area: m;
+  justify-self: center;
+  display: none;
+  grid-template-columns: repeat(3, min-content);
+  align-items: center;
+}
+
+#nav-l {
+  grid-area: l;
+  justify-self: right;
+  display: none; 
+  grid-template-columns: min-content auto;
+  align-items: center;
+}
+
+.show #nav-l, .show #nav-m { display:block; }
+
+.navbar button, .buy_btn, .button {
+  padding: .4rem .75rem;
+
+  border: 1px solid var(--green);
+  border-radius: .25rem;
+
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+    
+  text-align: center;
+  vertical-align: middle;
+
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  word-wrap: unset;
+
+  color: var(--green);
+  background-color: transparent; 
+  text-decoration: none;
+
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.button:hover {
+  background-color: var(--green);
+  color: white;
+}
+
+.button-bar {
+  display: block;
+  width: fit-content;
+  margin: auto;
+}
+
+.bar-sec {
+  display:  inline-block;
+  margin-right: .4rem;
+}
+
+.bar-sec .button {
+  display: inline-block;
+  margin-right: .4rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+}
+
+.bar-sec:last-child {
+  margin-right: 0;
+}
+
+.bar-sec .button:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 750px) {
+  .button-bar {
+    width: 100%;
+  }
+
+  .bar-sec {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 0.5rem;
+  }
+
+  .bar-sec:last-child {
+    margin-right: inherit;
+  }
+}
+
+@media (max-width: 405px) {
+  .bar-sec {
+    width: 100%;
+  }
+
+  .bar-sec .button {
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-bottom: 0.5rem;
+  }
+
+  .bar-sec .button:last-child {
+    margin: auto;
+    margin-bottom: 0;
+  }
+}
+
+a.buy_btn {
+    color: #fff;
+    background-color: var(--green);
+}
+
+@media (min-width: 800px) {
+  #nav-m, .show #nav-m {
+    display: grid;
+    grid-template-columns: repeat(3, min-content);
+  }
+
+  #nav-l, .show #nav-l {
+    display: grid;
+    grid-template-columns: min-content auto;
+  }
+
+  #nav-toggle, #nav-toggle.show {
+    display: grid;
+    grid-template-columns: 1fr 160px;
+    grid-template-areas:"m l";
+
+    position: unset;
+    right: unset;
+    background-image: none;
+    padding: 0;
+    box-shadow: none;
+  }
+
+  .nav-toggle {
+    display: none;
+  }
+}
+
+
+/* ---- Page Header ---- */
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 30px;
+  font-size: 12px;
+  margin: 50px auto;
+  width:90%;
+}
+
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 0.8;
+  margin: 0;  
+}
+
+.header h1>small {
+  font-size: 60%;
+  white-space: nowrap;  
+}
+
+.header img { width:100px; padding-bottom: 30px; }
+
+.header div {
+  text-align: center;
+}
+
+.header div:nth-child(2) {
+  grid-column-start: 1;
+}
+
+@media (min-width: 992px) {
+  .header { 
+    grid-template-columns: 100px 3fr 100px;
+  }
+
+  .header div:nth-child(2) {
+    grid-column-start: auto;
+  }  
+}
+
+
+
+
+/* ---- List Groups ---- */
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border:1px solid rgba(0,0,0,.125);
+  border-radius:.25rem;
+}
+
+.card-header {
+  padding: .75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0,0,0,.03);
+  border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.card-row {
+  position: relative;
+  display:grid;
+  grid-template-columns: 1.5fr 1fr;
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  padding:30px;
+}
+
+.card-row h5 { margin-top: 0; }
+
+
+/* ----- Footer ----- */ 
+footer {
+  margin-top: 30px !important;
+  border-top: 1px solid #dee2e6!important;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-column-gap: 30px;
+  font-size: 12px;
+  margin: 0 auto;
+  width:90%;
+  max-width:600px;
+}
+
+.footer p {
+  margin-top: 10px;
+}
+
+.footer div:nth-child(2) {
+  grid-column-start: 1;
+}
+
+@media (min-width: 600px) {
+  .footer { 
+    grid-template-columns: repeat(4, 20%);
+  }
+
+  .footer div:nth-child(2) {
+    grid-column-start: auto;
+  }  
+}
+
+
+.footer ul { 
+  margin-top:5px;
+  padding-left: 1em;
+  list-style: none;
+}
+
+.footer ul li:before {
+  content: "\25aa";
+  color:orange;
+  font-size: 1.1em;
+  font-weight: bold;
+  display: inline-block;
+  width:1em;
+  margin-left: -1em;
+}
+
+.footer h5 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
